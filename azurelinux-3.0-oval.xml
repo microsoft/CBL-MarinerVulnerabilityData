@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-10-24T12:03:50.062987826Z</oval:timestamp>
-    <oval:content_version>1729771430</oval:content_version>
+    <oval:timestamp>2024-10-25T12:04:14.86497119Z</oval:timestamp>
+    <oval:content_version>1729857854</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:50284" version="0">
@@ -2707,6 +2707,23 @@
         <criterion comment="Package python-tensorboard is earlier than 2.16.2-3, affected by CVE-2024-43788" test_ref="oval:com.microsoft.azurelinux:tst:48365000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48221" version="0">
+      <metadata>
+        <title>CVE-2024-43802 affecting package vim for versions less than 9.0.2190-6</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-43802" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-43802" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-10-24T00:18:23Z</advisory_date>
+        <advisory_id>48221</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-43802 affecting package vim for versions less than 9.0.2190-6. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package vim is earlier than 9.0.2190-6, affected by CVE-2024-43802" test_ref="oval:com.microsoft.azurelinux:tst:48221000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48197" version="1">
       <metadata>
         <title>CVE-2024-43884 affecting package kernel for versions less than 6.6.51.1-5</title>
@@ -5247,7 +5264,7 @@
         <reference ref_id="CVE-2024-6874" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-6874" source="CVE"/>
         <patchable>true</patchable>
         <advisory_id>47020-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>Low</severity>
         <description>CVE-2024-6874 affecting package curl for versions less than 8.8.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -10275,7 +10292,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-10-15T18:24:51Z</advisory_date>
         <advisory_id>42447-1</advisory_id>
-        <severity>High</severity>
+        <severity>Low</severity>
         <description>CVE-2024-33655 affecting package unbound for versions less than 1.19.1-3. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -22340,7 +22357,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34790-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2022-28735 affecting package grub2 for versions less than 2.06-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -25168,6 +25185,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package python-tensorboard is earlier than 2.16.2-3, affected by CVE-2024-43788" id="oval:com.microsoft.azurelinux:tst:48365000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:48365001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:48365002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package vim is earlier than 9.0.2190-6, affected by CVE-2024-43802" id="oval:com.microsoft.azurelinux:tst:48221000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:48221001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:48221002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.51.1-5, affected by CVE-2024-43884" id="oval:com.microsoft.azurelinux:tst:48197000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:48197001"/>
@@ -30800,6 +30821,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48365001" version="1">
       <linux-def:name>python-tensorboard</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48221001" version="0">
+      <linux-def:name>vim</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48197001" version="1">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
@@ -35142,6 +35166,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48365002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.16.2-3.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48221002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:9.0.2190-6.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48197002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.51.1-5.azl3</linux-def:evr>
