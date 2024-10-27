@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-10-26T12:03:48.252867887Z</oval:timestamp>
-    <oval:content_version>1729944228</oval:content_version>
+    <oval:timestamp>2024-10-27T12:03:39.959375594Z</oval:timestamp>
+    <oval:content_version>1730030619</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:50594" version="0">
@@ -857,7 +857,7 @@
         <criterion comment="Package kernel is earlier than 6.6.51.1-5, affected by CVE-2024-46846" test_ref="oval:com.microsoft.azurelinux:tst:50194000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:50181" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:50181" version="1">
       <metadata>
         <title>CVE-2024-0133 affecting package nvidia-container-toolkit for versions less than 1.16.2-1</title>
         <affected family="unix">
@@ -866,7 +866,7 @@
         <reference ref_id="CVE-2024-0133" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-0133" source="CVE"/>
         <patchable>true</patchable>
         <advisory_date>2024-10-10T19:18:21Z</advisory_date>
-        <advisory_id>50181</advisory_id>
+        <advisory_id>50181-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-0133 affecting package nvidia-container-toolkit for versions less than 1.16.2-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
@@ -874,7 +874,7 @@
         <criterion comment="Package nvidia-container-toolkit is earlier than 1.16.2-1, affected by CVE-2024-0133" test_ref="oval:com.microsoft.azurelinux:tst:50181000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:50180" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:50180" version="1">
       <metadata>
         <title>CVE-2024-0132 affecting package nvidia-container-toolkit for versions less than 1.16.2-1</title>
         <affected family="unix">
@@ -883,7 +883,7 @@
         <reference ref_id="CVE-2024-0132" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-0132" source="CVE"/>
         <patchable>true</patchable>
         <advisory_date>2024-10-10T19:18:21Z</advisory_date>
-        <advisory_id>50180</advisory_id>
+        <advisory_id>50180-1</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2024-0132 affecting package nvidia-container-toolkit for versions less than 1.16.2-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
@@ -3370,7 +3370,7 @@
         <criterion comment="Package mysql is earlier than 8.0.40-1, affected by CVE-2024-21165" test_ref="oval:com.microsoft.azurelinux:tst:48315000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48221" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48221" version="1">
       <metadata>
         <title>CVE-2024-43802 affecting package vim for versions less than 9.0.2190-6</title>
         <affected family="unix">
@@ -3379,7 +3379,7 @@
         <reference ref_id="CVE-2024-43802" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-43802" source="CVE"/>
         <patchable>true</patchable>
         <advisory_date>2024-10-24T00:18:23Z</advisory_date>
-        <advisory_id>48221</advisory_id>
+        <advisory_id>48221-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-43802 affecting package vim for versions less than 9.0.2190-6. A patched version of the package is available.</description>
       </metadata>
@@ -10955,7 +10955,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-10-15T18:24:51Z</advisory_date>
         <advisory_id>42447-1</advisory_id>
-        <severity>High</severity>
+        <severity>Low</severity>
         <description>CVE-2024-33655 affecting package unbound for versions less than 1.19.1-3. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -11437,7 +11437,7 @@
         <criterion comment="Package hyperv-daemons is earlier than 6.6.35.1-1, affected by CVE-2024-35854" test_ref="oval:com.microsoft.azurelinux:tst:42100000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42099" version="1">
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42099" version="2">
       <metadata>
         <title>CVE-2024-28182 affecting package fluent-bit for versions less than 3.0.6-1</title>
         <affected family="unix">
@@ -11446,7 +11446,7 @@
         <reference ref_id="CVE-2024-28182" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-28182" source="CVE"/>
         <patchable>true</patchable>
         <advisory_date>2024-07-22T23:01:50Z</advisory_date>
-        <advisory_id>42099-1</advisory_id>
+        <advisory_id>42099-2</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-28182 affecting package fluent-bit for versions less than 3.0.6-1. A patched version of the package is available.</description>
       </metadata>
@@ -13105,7 +13105,7 @@
         <criterion comment="Package ruby is earlier than 3.3.3-1, affected by CVE-2024-27282" test_ref="oval:com.microsoft.azurelinux:tst:40520000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40393" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40393" version="1">
       <metadata>
         <title>CVE-2024-34250 affecting package fluent-bit for versions less than 3.0.6-1</title>
         <affected family="unix">
@@ -13114,7 +13114,7 @@
         <reference ref_id="CVE-2024-34250" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-34250" source="CVE"/>
         <patchable>true</patchable>
         <advisory_date>2024-07-22T23:01:50Z</advisory_date>
-        <advisory_id>40393</advisory_id>
+        <advisory_id>40393-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2024-34250 affecting package fluent-bit for versions less than 3.0.6-1. A patched version of the package is available.</description>
       </metadata>
@@ -17096,7 +17096,7 @@
         <criterion comment="Package libuv is earlier than 1.48.0-1, affected by CVE-2024-22017" test_ref="oval:com.microsoft.azurelinux:tst:35886000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35883" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35883" version="1">
       <metadata>
         <title>CVE-2024-28180 affecting package kubernetes for versions less than 1.30.1-1</title>
         <affected family="unix">
@@ -17105,7 +17105,7 @@
         <reference ref_id="CVE-2024-28180" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-28180" source="CVE"/>
         <patchable>true</patchable>
         <advisory_date>2024-07-22T15:42:40Z</advisory_date>
-        <advisory_id>35883</advisory_id>
+        <advisory_id>35883-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-28180 affecting package kubernetes for versions less than 1.30.1-1. A patched version of the package is available.</description>
       </metadata>
@@ -23105,7 +23105,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34790-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2022-28735 affecting package grub2 for versions less than 2.06-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -23818,7 +23818,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34694-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2018-10906 affecting package fuse for versions less than 2.9.7-10. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -23893,7 +23893,7 @@
         <criterion comment="Package frr is earlier than 9.1-2, affected by CVE-2023-46753" test_ref="oval:com.microsoft.azurelinux:tst:34689000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34687" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34687" version="1">
       <metadata>
         <title>CVE-2024-25629 affecting package fluent-bit for versions less than 3.0.6-1</title>
         <affected family="unix">
@@ -23902,7 +23902,7 @@
         <reference ref_id="CVE-2024-25629" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-25629" source="CVE"/>
         <patchable>true</patchable>
         <advisory_date>2024-07-22T23:01:50Z</advisory_date>
-        <advisory_id>34687</advisory_id>
+        <advisory_id>34687-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-25629 affecting package fluent-bit for versions less than 3.0.6-1. A patched version of the package is available.</description>
       </metadata>
@@ -25498,11 +25498,11 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:50194001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:50194002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package nvidia-container-toolkit is earlier than 1.16.2-1, affected by CVE-2024-0133" id="oval:com.microsoft.azurelinux:tst:50181000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package nvidia-container-toolkit is earlier than 1.16.2-1, affected by CVE-2024-0133" id="oval:com.microsoft.azurelinux:tst:50181000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:50181001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:50181002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package nvidia-container-toolkit is earlier than 1.16.2-1, affected by CVE-2024-0132" id="oval:com.microsoft.azurelinux:tst:50180000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package nvidia-container-toolkit is earlier than 1.16.2-1, affected by CVE-2024-0132" id="oval:com.microsoft.azurelinux:tst:50180000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:50180001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:50180002"/>
     </linux-def:rpminfo_test>
@@ -26090,7 +26090,7 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:48315001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:48315002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package vim is earlier than 9.0.2190-6, affected by CVE-2024-43802" id="oval:com.microsoft.azurelinux:tst:48221000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package vim is earlier than 9.0.2190-6, affected by CVE-2024-43802" id="oval:com.microsoft.azurelinux:tst:48221000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:48221001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:48221002"/>
     </linux-def:rpminfo_test>
@@ -27990,7 +27990,7 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42100001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42100002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package fluent-bit is earlier than 3.0.6-1, affected by CVE-2024-28182" id="oval:com.microsoft.azurelinux:tst:42099000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package fluent-bit is earlier than 3.0.6-1, affected by CVE-2024-28182" id="oval:com.microsoft.azurelinux:tst:42099000" version="2">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42099001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42099002"/>
     </linux-def:rpminfo_test>
@@ -28386,7 +28386,7 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40520001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40520002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package fluent-bit is earlier than 3.0.6-1, affected by CVE-2024-34250" id="oval:com.microsoft.azurelinux:tst:40393000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package fluent-bit is earlier than 3.0.6-1, affected by CVE-2024-34250" id="oval:com.microsoft.azurelinux:tst:40393000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40393001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40393002"/>
     </linux-def:rpminfo_test>
@@ -29326,7 +29326,7 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35886001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35886002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kubernetes is earlier than 1.30.1-1, affected by CVE-2024-28180" id="oval:com.microsoft.azurelinux:tst:35883000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kubernetes is earlier than 1.30.1-1, affected by CVE-2024-28180" id="oval:com.microsoft.azurelinux:tst:35883000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35883001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35883002"/>
     </linux-def:rpminfo_test>
@@ -30934,7 +30934,7 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34689001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34689002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package fluent-bit is earlier than 3.0.6-1, affected by CVE-2024-25629" id="oval:com.microsoft.azurelinux:tst:34687000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package fluent-bit is earlier than 3.0.6-1, affected by CVE-2024-25629" id="oval:com.microsoft.azurelinux:tst:34687000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34687001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34687002"/>
     </linux-def:rpminfo_test>
@@ -31418,10 +31418,10 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:50194001" version="0">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:50181001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:50181001" version="1">
       <linux-def:name>nvidia-container-toolkit</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:50180001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:50180001" version="1">
       <linux-def:name>nvidia-container-toolkit</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:50124001" version="1">
@@ -31862,7 +31862,7 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48315001" version="0">
       <linux-def:name>mysql</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48221001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48221001" version="1">
       <linux-def:name>vim</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48197001" version="1">
@@ -33287,7 +33287,7 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42100001" version="1">
       <linux-def:name>hyperv-daemons</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42099001" version="1">
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42099001" version="2">
       <linux-def:name>fluent-bit</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42093001" version="0">
@@ -33584,7 +33584,7 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40520001" version="1">
       <linux-def:name>ruby</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40393001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40393001" version="1">
       <linux-def:name>fluent-bit</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40375001" version="0">
@@ -34289,7 +34289,7 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35886001" version="1">
       <linux-def:name>libuv</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35883001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35883001" version="1">
       <linux-def:name>kubernetes</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35882001" version="1">
@@ -35495,7 +35495,7 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34689001" version="1">
       <linux-def:name>frr</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34687001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34687001" version="1">
       <linux-def:name>fluent-bit</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34686001" version="0">
@@ -35896,10 +35896,10 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:50194002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.51.1-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:50181002" version="0">
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:50181002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.16.2-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:50180002" version="0">
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:50180002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.16.2-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:50124002" version="1">
@@ -36340,7 +36340,7 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48315002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:8.0.40-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48221002" version="0">
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48221002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:9.0.2190-6.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48197002" version="1">
@@ -37765,7 +37765,7 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42100002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.35.1-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42099002" version="1">
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42099002" version="2">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.0.6-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42093002" version="0">
@@ -38062,7 +38062,7 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40520002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.3.3-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40393002" version="0">
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40393002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.0.6-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40375002" version="0">
@@ -38767,7 +38767,7 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35886002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.48.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35883002" version="0">
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35883002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.30.1-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35882002" version="1">
@@ -39973,7 +39973,7 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34689002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:9.1-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34687002" version="0">
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34687002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.0.6-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34686002" version="0">
