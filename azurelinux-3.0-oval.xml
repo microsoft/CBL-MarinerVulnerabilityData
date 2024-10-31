@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-10-30T12:03:34.929489543Z</oval:timestamp>
-    <oval:content_version>1730289814</oval:content_version>
+    <oval:timestamp>2024-10-31T12:05:18.980424265Z</oval:timestamp>
+    <oval:content_version>1730376318</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:50594" version="0">
@@ -617,6 +617,40 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mysql is earlier than 8.0.40-1, affected by CVE-2024-21199" test_ref="oval:com.microsoft.azurelinux:tst:50406000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:50307" version="1">
+      <metadata>
+        <title>CVE-2024-48957 affecting package libarchive for versions less than 3.7.7-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-48957" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-48957" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-10-30T20:01:06Z</advisory_date>
+        <advisory_id>50307-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-48957 affecting package libarchive for versions less than 3.7.7-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libarchive is earlier than 3.7.7-1, affected by CVE-2024-48957" test_ref="oval:com.microsoft.azurelinux:tst:50307000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:50305" version="1">
+      <metadata>
+        <title>CVE-2024-48958 affecting package libarchive for versions less than 3.7.7-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-48958" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-48958" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-10-30T20:01:06Z</advisory_date>
+        <advisory_id>50305-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-48958 affecting package libarchive for versions less than 3.7.7-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libarchive is earlier than 3.7.7-1, affected by CVE-2024-48958" test_ref="oval:com.microsoft.azurelinux:tst:50305000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:50284" version="0">
@@ -5927,7 +5961,7 @@
         <reference ref_id="CVE-2024-6874" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-6874" source="CVE"/>
         <patchable>true</patchable>
         <advisory_id>47020-1</advisory_id>
-        <severity>Low</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-6874 affecting package curl for versions less than 8.8.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -10955,7 +10989,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-10-15T18:24:51Z</advisory_date>
         <advisory_id>42447-1</advisory_id>
-        <severity>High</severity>
+        <severity>Low</severity>
         <description>CVE-2024-33655 affecting package unbound for versions less than 1.19.1-3. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -25442,6 +25476,14 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:50406001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:50406002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libarchive is earlier than 3.7.7-1, affected by CVE-2024-48957" id="oval:com.microsoft.azurelinux:tst:50307000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:50307001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:50307002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libarchive is earlier than 3.7.7-1, affected by CVE-2024-48958" id="oval:com.microsoft.azurelinux:tst:50305000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:50305001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:50305002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.51.1-5, affected by CVE-2024-44977" id="oval:com.microsoft.azurelinux:tst:50284000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:50284001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:50284002"/>
@@ -31376,6 +31418,12 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:50406001" version="0">
       <linux-def:name>mysql</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:50307001" version="1">
+      <linux-def:name>libarchive</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:50305001" version="1">
+      <linux-def:name>libarchive</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:50284001" version="0">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
@@ -35853,6 +35901,12 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:50406002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:8.0.40-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:50307002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:3.7.7-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:50305002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:3.7.7-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:50284002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.51.1-5.azl3</linux-def:evr>
