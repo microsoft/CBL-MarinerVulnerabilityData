@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-11-14T13:03:51.866248026Z</oval:timestamp>
-    <oval:content_version>1731589431</oval:content_version>
+    <oval:timestamp>2024-11-15T13:03:53.844583262Z</oval:timestamp>
+    <oval:content_version>1731675833</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52881" version="2">
@@ -5199,10 +5199,10 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2024-42861" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-42861" source="CVE"/>
-        <patchable>true</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>49740-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2024-42861 affecting package linuxptp for versions less than 3.1.1-1. A patched version of the package is available.</description>
+        <description>CVE-2024-42861 affecting package linuxptp for versions less than 3.1.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package linuxptp is earlier than 3.1.1-1, affected by CVE-2024-42861" test_ref="oval:com.microsoft.azurelinux:tst:49740000"/>
@@ -5215,10 +5215,10 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2024-45773" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-45773" source="CVE"/>
-        <patchable>true</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>49728-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2024-45773 affecting package thrift for versions less than 0.15.0-5. A patched version of the package is available.</description>
+        <description>CVE-2024-45773 affecting package thrift for versions less than 0.15.0-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package thrift is earlier than 0.15.0-5, affected by CVE-2024-45773" test_ref="oval:com.microsoft.azurelinux:tst:49728000"/>
@@ -8647,10 +8647,10 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2024-35955" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-35955" source="CVE"/>
-        <patchable>true</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>47642-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2024-35955 affecting package kernel for versions less than 6.6.28.1-1. A patched version of the package is available.</description>
+        <description>CVE-2024-35955 affecting package kernel for versions less than 6.6.28.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 6.6.28.1-1, affected by CVE-2024-35955" test_ref="oval:com.microsoft.azurelinux:tst:47642000"/>
@@ -14970,7 +14970,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-10-15T18:24:51Z</advisory_date>
         <advisory_id>42447-1</advisory_id>
-        <severity>High</severity>
+        <severity>Low</severity>
         <description>CVE-2024-33655 affecting package unbound for versions less than 1.19.1-3. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -20120,7 +20120,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-04-17T22:02:46Z</advisory_date>
         <advisory_id>37105-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-30202 affecting package emacs for versions less than 29.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -27325,7 +27325,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34790-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2022-28735 affecting package grub2 for versions less than 2.06-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
