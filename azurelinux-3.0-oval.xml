@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-11-22T13:03:59.046670039Z</oval:timestamp>
-    <oval:content_version>1732280639</oval:content_version>
+    <oval:timestamp>2024-11-23T13:05:56.953866171Z</oval:timestamp>
+    <oval:content_version>1732367156</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52881" version="2">
@@ -226,6 +226,23 @@
       <criteria operator="AND">
         <criterion comment="Package golang is earlier than 1.22.3-1, affected by CVE-2024-24789" test_ref="oval:com.microsoft.azurelinux:tst:52663000"/>
         <criterion comment="Package golang is greater than 0.0.0, affected by CVE-2024-24789" test_ref="oval:com.microsoft.azurelinux:tst:52663003"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52639" version="0">
+      <metadata>
+        <title>CVE-2024-52533 affecting package glib for versions less than 2.78.1-5</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-52533" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-52533" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-11-22T20:02:17Z</advisory_date>
+        <advisory_id>52639</advisory_id>
+        <severity>Critical</severity>
+        <description>CVE-2024-52533 affecting package glib for versions less than 2.78.1-5. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package glib is earlier than 2.78.1-5, affected by CVE-2024-52533" test_ref="oval:com.microsoft.azurelinux:tst:52639000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52538" version="0">
@@ -27952,7 +27969,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34694-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2018-10906 affecting package fuse for versions less than 2.9.7-10. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -29585,6 +29602,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package golang is earlier than 1.22.3-1, affected by CVE-2024-24789" id="oval:com.microsoft.azurelinux:tst:52663000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52663001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:52663002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package glib is earlier than 2.78.1-5, affected by CVE-2024-52533" id="oval:com.microsoft.azurelinux:tst:52639000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52639001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:52639002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.57.1-2, affected by CVE-2024-50093" id="oval:com.microsoft.azurelinux:tst:52538000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52538001"/>
@@ -36598,6 +36619,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52663001" version="1">
       <linux-def:name>golang</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52639001" version="0">
+      <linux-def:name>glib</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52538001" version="0">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
@@ -41876,6 +41900,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52663002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.22.3-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52639002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.78.1-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52538002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.57.1-2.azl3</linux-def:evr>
