@@ -3,10 +3,27 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-11-26T13:03:47.286610604Z</oval:timestamp>
-    <oval:content_version>1732626227</oval:content_version>
+    <oval:timestamp>2024-11-27T13:03:51.732705365Z</oval:timestamp>
+    <oval:content_version>1732712631</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:53397" version="1">
+      <metadata>
+        <title>CVE-2024-10224 affecting package perl-Module-ScanDeps for versions less than 1.35-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-10224" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-10224" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-11-22T22:36:35Z</advisory_date>
+        <advisory_id>53397-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-10224 affecting package perl-Module-ScanDeps for versions less than 1.35-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package perl-Module-ScanDeps is earlier than 1.35-2, affected by CVE-2024-10224" test_ref="oval:com.microsoft.azurelinux:tst:53397000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:53215" version="1">
       <metadata>
         <title>CVE-2024-10976 affecting package postgresql for versions less than 16.5-1</title>
@@ -90,6 +107,57 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package fluent-bit is earlier than 3.0.6-3, affected by CVE-2024-25431" test_ref="oval:com.microsoft.azurelinux:tst:53175000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:53159" version="1">
+      <metadata>
+        <title>CVE-2024-52530 affecting package libsoup for versions less than 3.4.4-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-52530" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-52530" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-11-26T20:46:29Z</advisory_date>
+        <advisory_id>53159-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-52530 affecting package libsoup for versions less than 3.4.4-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libsoup is earlier than 3.4.4-2, affected by CVE-2024-52530" test_ref="oval:com.microsoft.azurelinux:tst:53159000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:53081" version="1">
+      <metadata>
+        <title>CVE-2024-52532 affecting package libsoup for versions less than 3.4.4-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-52532" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-52532" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-11-26T20:46:29Z</advisory_date>
+        <advisory_id>53081-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-52532 affecting package libsoup for versions less than 3.4.4-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libsoup is earlier than 3.4.4-2, affected by CVE-2024-52532" test_ref="oval:com.microsoft.azurelinux:tst:53081000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:53063" version="1">
+      <metadata>
+        <title>CVE-2024-52531 affecting package libsoup for versions less than 3.4.4-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-52531" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-52531" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-11-26T20:46:29Z</advisory_date>
+        <advisory_id>53063-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-52531 affecting package libsoup for versions less than 3.4.4-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libsoup is earlier than 3.4.4-2, affected by CVE-2024-52531" test_ref="oval:com.microsoft.azurelinux:tst:53063000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52881" version="2">
@@ -14637,6 +14705,23 @@
         <criterion comment="Package python3 is earlier than 3.12.3-1, affected by CVE-2024-0397" test_ref="oval:com.microsoft.azurelinux:tst:42784000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42769" version="1">
+      <metadata>
+        <title>CVE-2024-37891 affecting package python-pip for versions less than 24.2-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-37891" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-37891" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-11-26T20:46:29Z</advisory_date>
+        <advisory_id>42769-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-37891 affecting package python-pip for versions less than 24.2-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package python-pip is earlier than 24.2-2, affected by CVE-2024-37891" test_ref="oval:com.microsoft.azurelinux:tst:42769000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42766" version="1">
       <metadata>
         <title>CVE-2024-4603 affecting package cloud-hypervisor-cvm for versions less than 38.0.72.2-1</title>
@@ -14924,6 +15009,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 6.6.35.1-4, affected by CVE-2024-36971" test_ref="oval:com.microsoft.azurelinux:tst:42615000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42612" version="1">
+      <metadata>
+        <title>CVE-2024-5742 affecting package nano for versions less than 6.4-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-5742" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-5742" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-11-26T20:46:29Z</advisory_date>
+        <advisory_id>42612-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-5742 affecting package nano for versions less than 6.4-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package nano is earlier than 6.4-2, affected by CVE-2024-5742" test_ref="oval:com.microsoft.azurelinux:tst:42612000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42609" version="1">
@@ -22574,6 +22676,40 @@
         <criterion comment="Package usrsctp is earlier than 0.9.5.0-1, affected by CVE-2019-20503" test_ref="oval:com.microsoft.azurelinux:tst:35345000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35344" version="1">
+      <metadata>
+        <title>CVE-2022-0530 affecting package unzip for versions less than 6.0-21</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2022-0530" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-0530" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-11-26T20:46:29Z</advisory_date>
+        <advisory_id>35344-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-0530 affecting package unzip for versions less than 6.0-21. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package unzip is earlier than 6.0-21, affected by CVE-2022-0530" test_ref="oval:com.microsoft.azurelinux:tst:35344000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35343" version="1">
+      <metadata>
+        <title>CVE-2022-0529 affecting package unzip for versions less than 6.0-21</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2022-0529" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-0529" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-11-26T20:46:29Z</advisory_date>
+        <advisory_id>35343-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-0529 affecting package unzip for versions less than 6.0-21. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package unzip is earlier than 6.0-21, affected by CVE-2022-0529" test_ref="oval:com.microsoft.azurelinux:tst:35343000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35341" version="1">
       <metadata>
         <title>CVE-2019-13232 affecting package unzip for versions less than 6.0-20</title>
@@ -27511,7 +27647,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34790-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2022-28735 affecting package grub2 for versions less than 2.06-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -29668,6 +29804,10 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package perl-Module-ScanDeps is earlier than 1.35-2, affected by CVE-2024-10224" id="oval:com.microsoft.azurelinux:tst:53397000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:53397001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:53397002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package postgresql is earlier than 16.5-1, affected by CVE-2024-10976" id="oval:com.microsoft.azurelinux:tst:53215000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:53215001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:53215002"/>
@@ -29687,6 +29827,18 @@
     <linux-def:rpminfo_test check="at least one" comment="Package fluent-bit is earlier than 3.0.6-3, affected by CVE-2024-25431" id="oval:com.microsoft.azurelinux:tst:53175000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:53175001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:53175002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libsoup is earlier than 3.4.4-2, affected by CVE-2024-52530" id="oval:com.microsoft.azurelinux:tst:53159000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:53159001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:53159002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libsoup is earlier than 3.4.4-2, affected by CVE-2024-52532" id="oval:com.microsoft.azurelinux:tst:53081000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:53081001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:53081002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libsoup is earlier than 3.4.4-2, affected by CVE-2024-52531" id="oval:com.microsoft.azurelinux:tst:53063000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:53063001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:53063002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package golang is greater than 0.0.0, affected by CVE-2023-29409" id="oval:com.microsoft.azurelinux:tst:52881003" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52881004"/>
@@ -33176,6 +33328,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42784001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42784002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package python-pip is earlier than 24.2-2, affected by CVE-2024-37891" id="oval:com.microsoft.azurelinux:tst:42769000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42769001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42769002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package cloud-hypervisor-cvm is earlier than 38.0.72.2-1, affected by CVE-2024-4603" id="oval:com.microsoft.azurelinux:tst:42766000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42766001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42766002"/>
@@ -33243,6 +33399,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.35.1-4, affected by CVE-2024-36971" id="oval:com.microsoft.azurelinux:tst:42615000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42615001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42615002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package nano is earlier than 6.4-2, affected by CVE-2024-5742" id="oval:com.microsoft.azurelinux:tst:42612000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42612001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42612002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package libndp is earlier than 1.8-2, affected by CVE-2024-5564" id="oval:com.microsoft.azurelinux:tst:42609000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42609001"/>
@@ -35052,6 +35212,14 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35345001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35345002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package unzip is earlier than 6.0-21, affected by CVE-2022-0530" id="oval:com.microsoft.azurelinux:tst:35344000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35344001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35344002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package unzip is earlier than 6.0-21, affected by CVE-2022-0529" id="oval:com.microsoft.azurelinux:tst:35343000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35343001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35343002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package unzip is earlier than 6.0-20, affected by CVE-2019-13232" id="oval:com.microsoft.azurelinux:tst:35341000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35341001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35341002"/>
@@ -36750,6 +36918,9 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:53397001" version="1">
+      <linux-def:name>perl-Module-ScanDeps</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:53215001" version="1">
       <linux-def:name>postgresql</linux-def:name>
     </linux-def:rpminfo_object>
@@ -36764,6 +36935,15 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:53175001" version="0">
       <linux-def:name>fluent-bit</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:53159001" version="1">
+      <linux-def:name>libsoup</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:53081001" version="1">
+      <linux-def:name>libsoup</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:53063001" version="1">
+      <linux-def:name>libsoup</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52881004" version="1">
       <linux-def:name>golang</linux-def:name>
@@ -39381,6 +39561,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42784001" version="1">
       <linux-def:name>python3</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42769001" version="1">
+      <linux-def:name>python-pip</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42766001" version="1">
       <linux-def:name>cloud-hypervisor-cvm</linux-def:name>
     </linux-def:rpminfo_object>
@@ -39431,6 +39614,9 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42615001" version="1">
       <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42612001" version="1">
+      <linux-def:name>nano</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42609001" version="1">
       <linux-def:name>libndp</linux-def:name>
@@ -40788,6 +40974,12 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35345001" version="1">
       <linux-def:name>usrsctp</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35344001" version="1">
+      <linux-def:name>unzip</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35343001" version="1">
+      <linux-def:name>unzip</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35341001" version="1">
       <linux-def:name>unzip</linux-def:name>
     </linux-def:rpminfo_object>
@@ -42062,6 +42254,9 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:53397002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.35-2.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:53215002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:16.5-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -42076,6 +42271,15 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:53175002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.0.6-3.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:53159002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:3.4.4-2.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:53081002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:3.4.4-2.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:53063002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:3.4.4-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52881005" version="1">
       <linux-def:evr datatype="evr_string" operation="greater than">0:0.0.0.azl3</linux-def:evr>
@@ -44693,6 +44897,9 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42784002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.12.3-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42769002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:24.2-2.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42766002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:38.0.72.2-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -44743,6 +44950,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42615002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.35.1-4.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42612002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:6.4-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42609002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.8-2.azl3</linux-def:evr>
@@ -46099,6 +46309,12 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35345002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:0.9.5.0-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35344002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:6.0-21.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35343002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:6.0-21.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35341002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.0-20.azl3</linux-def:evr>
