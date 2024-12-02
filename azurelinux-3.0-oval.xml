@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-12-01T13:03:39.975332662Z</oval:timestamp>
-    <oval:content_version>1733058219</oval:content_version>
+    <oval:timestamp>2024-12-02T13:04:27.978185176Z</oval:timestamp>
+    <oval:content_version>1733144667</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:53397" version="1">
@@ -235,10 +235,10 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2023-29405" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-29405" source="CVE"/>
-        <patchable>true</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>52827-2</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2023-29405 affecting package golang for versions less than 1.20.7-1. A patched version of the package is available.</description>
+        <description>CVE-2023-29405 affecting package golang for versions less than 1.20.7-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package golang is earlier than 1.20.7-1, affected by CVE-2023-29405" test_ref="oval:com.microsoft.azurelinux:tst:52827000"/>
@@ -320,10 +320,10 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2023-29406" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-29406" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>true</patchable>
         <advisory_id>52711-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-29406 affecting package golang for versions less than 1.20.7-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-29406 affecting package golang for versions less than 1.20.7-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package golang is earlier than 1.20.7-1, affected by CVE-2023-29406" test_ref="oval:com.microsoft.azurelinux:tst:52711000"/>
@@ -20389,10 +20389,10 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2024-30204" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-30204" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>true</patchable>
         <advisory_id>37106-1</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2024-30204 affecting package emacs for versions less than 29.3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2024-30204 affecting package emacs for versions less than 29.3. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package emacs is earlier than 29.3, affected by CVE-2024-30204" test_ref="oval:com.microsoft.azurelinux:tst:37106000"/>
@@ -27647,7 +27647,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34790-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2022-28735 affecting package grub2 for versions less than 2.06-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -29574,11 +29574,11 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2023-50387" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-50387" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34559-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-50387 affecting package bind for versions less than 9.20.0-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-50387 affecting package bind for versions less than 9.20.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package bind is earlier than 9.20.0-1, affected by CVE-2023-50387" test_ref="oval:com.microsoft.azurelinux:tst:34559000"/>
