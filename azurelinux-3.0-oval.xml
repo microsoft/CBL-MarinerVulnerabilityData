@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-12-02T13:04:27.978185176Z</oval:timestamp>
-    <oval:content_version>1733144667</oval:content_version>
+    <oval:timestamp>2024-12-03T00:58:46.631726483Z</oval:timestamp>
+    <oval:content_version>1733187526</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:53397" version="1">
@@ -211,6 +211,23 @@
         <criterion comment="Package golang is greater than 0.0.0, affected by CVE-2023-24532" test_ref="oval:com.microsoft.azurelinux:tst:52875003"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52868" version="0">
+      <metadata>
+        <title>CVE-2022-41715 affecting package golang for versions less than 1.21.6-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2022-41715" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41715" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
+        <advisory_id>52868</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2022-41715 affecting package golang for versions less than 1.21.6-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package golang is earlier than 1.21.6-2, affected by CVE-2022-41715" test_ref="oval:com.microsoft.azurelinux:tst:52868000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52845" version="2">
       <metadata>
         <title>CVE-2023-39323 affecting package golang for versions less than  1.20.10-1</title>
@@ -235,10 +252,10 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2023-29405" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-29405" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>true</patchable>
         <advisory_id>52827-2</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2023-29405 affecting package golang for versions less than 1.20.7-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-29405 affecting package golang for versions less than 1.20.7-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package golang is earlier than 1.20.7-1, affected by CVE-2023-29405" test_ref="oval:com.microsoft.azurelinux:tst:52827000"/>
@@ -354,10 +371,10 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2023-24539" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-24539" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>true</patchable>
         <advisory_id>52668-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-24539 affecting package golang for versions less than 1.20.7-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-24539 affecting package golang for versions less than 1.20.7-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package golang is earlier than 1.20.7-1, affected by CVE-2023-24539" test_ref="oval:com.microsoft.azurelinux:tst:52668000"/>
@@ -371,10 +388,10 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2024-24789" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-24789" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>true</patchable>
         <advisory_id>52663-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2024-24789 affecting package golang for versions less than 1.22.3-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2024-24789 affecting package golang for versions less than 1.22.3-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package golang is earlier than 1.22.3-1, affected by CVE-2024-24789" test_ref="oval:com.microsoft.azurelinux:tst:52663000"/>
@@ -4607,7 +4624,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-10-10T19:18:21Z</advisory_date>
         <advisory_id>50181-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>Low</severity>
         <description>CVE-2024-0133 affecting package nvidia-container-toolkit for versions less than 1.16.2-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -7291,7 +7308,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-11-08T21:38:16Z</advisory_date>
         <advisory_id>48680-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2024-20505 affecting package clamav for versions less than 1.0.7-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -7427,7 +7444,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-10-15T18:24:51Z</advisory_date>
         <advisory_id>48430-1</advisory_id>
-        <severity>High</severity>
+        <severity>Critical</severity>
         <description>CVE-2024-45491 affecting package expat for versions less than 2.6.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -7512,7 +7529,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-10-15T18:24:51Z</advisory_date>
         <advisory_id>48394-1</advisory_id>
-        <severity>High</severity>
+        <severity>Critical</severity>
         <description>CVE-2024-45492 affecting package expat for versions less than 2.6.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -7545,7 +7562,7 @@
         <reference ref_id="CVE-2024-5991" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-5991" source="CVE"/>
         <patchable>true</patchable>
         <advisory_id>48368-1</advisory_id>
-        <severity>High</severity>
+        <severity>Critical</severity>
         <description>CVE-2024-5991 affecting package mariadb for versions less than 10.6.9-6. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -9720,7 +9737,7 @@
         <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>47229-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2024-42226 affecting package kernel for versions less than 6.6.43.1-7. A patched version of the package is available.</description>
+        <description>CVE-2024-42226 affecting package kernel for versions less than 6.6.43.1-7. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 6.6.43.1-7, affected by CVE-2024-42226" test_ref="oval:com.microsoft.azurelinux:tst:47229000"/>
@@ -10655,7 +10672,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-07-23T02:21:02Z</advisory_date>
         <advisory_id>46837</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2024-35801 affecting package hyperv-daemons for versions less than 6.6.35.1-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -11998,7 +12015,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-07-23T02:21:02Z</advisory_date>
         <advisory_id>46214</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-27050 affecting package hyperv-daemons for versions less than 6.6.35.1-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -13831,10 +13848,10 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2024-6345" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-6345" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>true</patchable>
         <advisory_id>43326-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2024-6345 affecting package python-pip for versions less than 24.2-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2024-6345 affecting package python-pip for versions less than 24.2-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python-pip is earlier than 24.2-1, affected by CVE-2024-6345" test_ref="oval:com.microsoft.azurelinux:tst:43326000"/>
@@ -14070,7 +14087,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>43089-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-36387 affecting package httpd for versions less than 2.4.61-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -14290,7 +14307,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-07-23T22:05:39Z</advisory_date>
         <advisory_id>42975-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>Critical</severity>
         <description>CVE-2024-5535 affecting package openssl for versions less than 3.3.0-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -16944,7 +16961,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40615-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-29166 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -17148,7 +17165,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40573-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-33876 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -18337,7 +18354,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-10-15T18:24:51Z</advisory_date>
         <advisory_id>39719-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2023-50966 affecting package rabbitmq-server for versions less than 3.13.7-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -20561,7 +20578,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-10-01T18:58:50Z</advisory_date>
         <advisory_id>37088-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2024-2398 affecting package cmake for versions less than 3.30.3-2. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -24498,7 +24515,7 @@
         <reference ref_id="CVE-2023-5366" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-5366" source="CVE"/>
         <patchable>true</patchable>
         <advisory_id>35087-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2023-5366 affecting package openvswitch for versions less than 3.3.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -26513,7 +26530,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>34885-1</advisory_id>
-        <severity>Low</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-24861 affecting package kernel for versions less than 6.6.35.1-4. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -26649,7 +26666,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>34876-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2024-23307 affecting package kernel for versions less than 6.6.35.1-4. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -26666,7 +26683,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>34875-1</advisory_id>
-        <severity>Low</severity>
+        <severity>High</severity>
         <description>CVE-2024-21803 affecting package kernel for versions less than 6.6.35.1-4. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -26734,7 +26751,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>34871-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2024-0565 affecting package kernel for versions less than 6.6.35.1-4. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -27630,7 +27647,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34791-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2022-28736 affecting package grub2 for versions less than 2.06-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -29863,6 +29880,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package golang is earlier than 1.20.2-1, affected by CVE-2023-24532" id="oval:com.microsoft.azurelinux:tst:52875000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52875001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:52875002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is earlier than 1.21.6-2, affected by CVE-2022-41715" id="oval:com.microsoft.azurelinux:tst:52868000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52868001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:52868002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package golang is greater than 0.0.0, affected by CVE-2023-39323" id="oval:com.microsoft.azurelinux:tst:52845003" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52845004"/>
@@ -36963,6 +36984,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52875001" version="1">
       <linux-def:name>golang</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52868001" version="0">
+      <linux-def:name>golang</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52845004" version="1">
       <linux-def:name>golang</linux-def:name>
     </linux-def:rpminfo_object>
@@ -42298,6 +42322,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52875002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.20.2-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52868002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.21.6-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52845005" version="1">
       <linux-def:evr datatype="evr_string" operation="greater than">0:0.0.0.azl3</linux-def:evr>
