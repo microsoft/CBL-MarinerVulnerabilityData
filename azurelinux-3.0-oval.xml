@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-12-08T13:04:34.020007803Z</oval:timestamp>
-    <oval:content_version>1733663074</oval:content_version>
+    <oval:timestamp>2024-12-09T13:03:32.827610703Z</oval:timestamp>
+    <oval:content_version>1733749412</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:53837" version="1">
@@ -320,7 +320,7 @@
         </affected>
         <reference ref_id="CVE-2024-9355" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-9355" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-11-08T21:38:16Z</advisory_date>
+        <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>52774-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-9355 affecting package golang for versions less than 1.22.9-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -10316,7 +10316,7 @@
         <reference ref_id="CVE-2024-6874" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-6874" source="CVE"/>
         <patchable>true</patchable>
         <advisory_id>47020-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>Low</severity>
         <description>CVE-2024-6874 affecting package curl for versions less than 8.8.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -16770,7 +16770,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41086" version="1">
       <metadata>
-        <title>CVE-2019-14584 affecting package shim-unsigned-x64 for versions less than 15.8-3</title>
+        <title>CVE-2019-14584 affecting package shim-unsigned-x64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -16779,10 +16779,10 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>41086-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2019-14584 affecting package shim-unsigned-x64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2019-14584 affecting package shim-unsigned-x64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2019-14584" test_ref="oval:com.microsoft.azurelinux:tst:41086000"/>
+        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2019-14584" test_ref="oval:com.microsoft.azurelinux:tst:41086000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41064" version="0">
@@ -16804,7 +16804,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41063" version="1">
       <metadata>
-        <title>CVE-2022-28737 affecting package shim-unsigned-x64 for versions less than 15.8-3</title>
+        <title>CVE-2022-28737 affecting package shim-unsigned-x64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -16813,10 +16813,10 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>41063-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-28737 affecting package shim-unsigned-x64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2022-28737 affecting package shim-unsigned-x64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2022-28737" test_ref="oval:com.microsoft.azurelinux:tst:41063000"/>
+        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2022-28737" test_ref="oval:com.microsoft.azurelinux:tst:41063000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41054" version="1">
@@ -16887,7 +16887,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40910" version="1">
       <metadata>
-        <title>CVE-2022-28737 affecting package shim-unsigned-aarch64 for versions less than 15.8-3</title>
+        <title>CVE-2022-28737 affecting package shim-unsigned-aarch64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -16896,10 +16896,10 @@
         <advisory_date>2024-12-06T16:02:50Z</advisory_date>
         <advisory_id>40910-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-28737 affecting package shim-unsigned-aarch64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2022-28737 affecting package shim-unsigned-aarch64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2022-28737" test_ref="oval:com.microsoft.azurelinux:tst:40910000"/>
+        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2022-28737" test_ref="oval:com.microsoft.azurelinux:tst:40910000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40907" version="2">
@@ -16971,7 +16971,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40833" version="1">
       <metadata>
-        <title>CVE-2019-14584 affecting package shim-unsigned-aarch64 for versions less than 15.8-3</title>
+        <title>CVE-2019-14584 affecting package shim-unsigned-aarch64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -16980,10 +16980,10 @@
         <advisory_date>2024-12-06T16:02:50Z</advisory_date>
         <advisory_id>40833-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2019-14584 affecting package shim-unsigned-aarch64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2019-14584 affecting package shim-unsigned-aarch64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2019-14584" test_ref="oval:com.microsoft.azurelinux:tst:40833000"/>
+        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2019-14584" test_ref="oval:com.microsoft.azurelinux:tst:40833000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40812" version="1">
@@ -23665,7 +23665,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35278" version="1">
       <metadata>
-        <title>CVE-2023-40547 affecting package shim-unsigned-x64 for versions less than 15.8-3</title>
+        <title>CVE-2023-40547 affecting package shim-unsigned-x64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23674,15 +23674,15 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>35278-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-40547 affecting package shim-unsigned-x64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40547 affecting package shim-unsigned-x64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2023-40547" test_ref="oval:com.microsoft.azurelinux:tst:35278000"/>
+        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2023-40547" test_ref="oval:com.microsoft.azurelinux:tst:35278000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35277" version="1">
       <metadata>
-        <title>CVE-2023-40550 affecting package shim-unsigned-x64 for versions less than 15.8-3</title>
+        <title>CVE-2023-40550 affecting package shim-unsigned-x64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23691,15 +23691,15 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>35277-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-40550 affecting package shim-unsigned-x64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40550 affecting package shim-unsigned-x64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2023-40550" test_ref="oval:com.microsoft.azurelinux:tst:35277000"/>
+        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2023-40550" test_ref="oval:com.microsoft.azurelinux:tst:35277000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35275" version="1">
       <metadata>
-        <title>CVE-2023-40548 affecting package shim-unsigned-x64 for versions less than 15.8-3</title>
+        <title>CVE-2023-40548 affecting package shim-unsigned-x64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23708,15 +23708,15 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>35275-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-40548 affecting package shim-unsigned-x64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40548 affecting package shim-unsigned-x64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2023-40548" test_ref="oval:com.microsoft.azurelinux:tst:35275000"/>
+        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2023-40548" test_ref="oval:com.microsoft.azurelinux:tst:35275000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35273" version="1">
       <metadata>
-        <title>CVE-2023-40549 affecting package shim-unsigned-x64 for versions less than 15.8-3</title>
+        <title>CVE-2023-40549 affecting package shim-unsigned-x64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23725,15 +23725,15 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>35273-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-40549 affecting package shim-unsigned-x64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40549 affecting package shim-unsigned-x64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2023-40549" test_ref="oval:com.microsoft.azurelinux:tst:35273000"/>
+        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2023-40549" test_ref="oval:com.microsoft.azurelinux:tst:35273000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35271" version="1">
       <metadata>
-        <title>CVE-2023-40546 affecting package shim-unsigned-x64 for versions less than 15.8-3</title>
+        <title>CVE-2023-40546 affecting package shim-unsigned-x64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23742,15 +23742,15 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>35271-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-40546 affecting package shim-unsigned-x64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40546 affecting package shim-unsigned-x64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2023-40546" test_ref="oval:com.microsoft.azurelinux:tst:35271000"/>
+        <criterion comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2023-40546" test_ref="oval:com.microsoft.azurelinux:tst:35271000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35267" version="1">
       <metadata>
-        <title>CVE-2023-40547 affecting package shim-unsigned-aarch64 for versions less than 15.8-3</title>
+        <title>CVE-2023-40547 affecting package shim-unsigned-aarch64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23759,15 +23759,15 @@
         <advisory_date>2024-12-06T16:02:50Z</advisory_date>
         <advisory_id>35267-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-40547 affecting package shim-unsigned-aarch64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40547 affecting package shim-unsigned-aarch64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2023-40547" test_ref="oval:com.microsoft.azurelinux:tst:35267000"/>
+        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2023-40547" test_ref="oval:com.microsoft.azurelinux:tst:35267000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35265" version="1">
       <metadata>
-        <title>CVE-2023-40550 affecting package shim-unsigned-aarch64 for versions less than 15.8-3</title>
+        <title>CVE-2023-40550 affecting package shim-unsigned-aarch64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23776,15 +23776,15 @@
         <advisory_date>2024-12-06T16:02:50Z</advisory_date>
         <advisory_id>35265-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-40550 affecting package shim-unsigned-aarch64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40550 affecting package shim-unsigned-aarch64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2023-40550" test_ref="oval:com.microsoft.azurelinux:tst:35265000"/>
+        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2023-40550" test_ref="oval:com.microsoft.azurelinux:tst:35265000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35264" version="1">
       <metadata>
-        <title>CVE-2023-40549 affecting package shim-unsigned-aarch64 for versions less than 15.8-3</title>
+        <title>CVE-2023-40549 affecting package shim-unsigned-aarch64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23793,15 +23793,15 @@
         <advisory_date>2024-12-06T16:02:50Z</advisory_date>
         <advisory_id>35264-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-40549 affecting package shim-unsigned-aarch64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40549 affecting package shim-unsigned-aarch64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2023-40549" test_ref="oval:com.microsoft.azurelinux:tst:35264000"/>
+        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2023-40549" test_ref="oval:com.microsoft.azurelinux:tst:35264000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35263" version="1">
       <metadata>
-        <title>CVE-2023-40548 affecting package shim-unsigned-aarch64 for versions less than 15.8-3</title>
+        <title>CVE-2023-40548 affecting package shim-unsigned-aarch64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23810,15 +23810,15 @@
         <advisory_date>2024-12-06T16:02:50Z</advisory_date>
         <advisory_id>35263-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-40548 affecting package shim-unsigned-aarch64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40548 affecting package shim-unsigned-aarch64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2023-40548" test_ref="oval:com.microsoft.azurelinux:tst:35263000"/>
+        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2023-40548" test_ref="oval:com.microsoft.azurelinux:tst:35263000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35261" version="1">
       <metadata>
-        <title>CVE-2023-40546 affecting package shim-unsigned-aarch64 for versions less than 15.8-3</title>
+        <title>CVE-2023-40546 affecting package shim-unsigned-aarch64 for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23827,15 +23827,15 @@
         <advisory_date>2024-12-06T16:02:50Z</advisory_date>
         <advisory_id>35261-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-40546 affecting package shim-unsigned-aarch64 for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40546 affecting package shim-unsigned-aarch64 for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2023-40546" test_ref="oval:com.microsoft.azurelinux:tst:35261000"/>
+        <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2023-40546" test_ref="oval:com.microsoft.azurelinux:tst:35261000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35258" version="1">
       <metadata>
-        <title>CVE-2023-40551 affecting package shim for versions less than 15.8-3</title>
+        <title>CVE-2023-40551 affecting package shim for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23844,15 +23844,15 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>35258-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-40551 affecting package shim for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40551 affecting package shim for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim is earlier than 15.8-3, affected by CVE-2023-40551" test_ref="oval:com.microsoft.azurelinux:tst:35258000"/>
+        <criterion comment="Package shim is earlier than 15.8-5, affected by CVE-2023-40551" test_ref="oval:com.microsoft.azurelinux:tst:35258000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35257" version="1">
       <metadata>
-        <title>CVE-2023-40550 affecting package shim for versions less than 15.8-3</title>
+        <title>CVE-2023-40550 affecting package shim for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23861,15 +23861,15 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>35257-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-40550 affecting package shim for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40550 affecting package shim for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim is earlier than 15.8-3, affected by CVE-2023-40550" test_ref="oval:com.microsoft.azurelinux:tst:35257000"/>
+        <criterion comment="Package shim is earlier than 15.8-5, affected by CVE-2023-40550" test_ref="oval:com.microsoft.azurelinux:tst:35257000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35256" version="1">
       <metadata>
-        <title>CVE-2023-40549 affecting package shim for versions less than 15.8-3</title>
+        <title>CVE-2023-40549 affecting package shim for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23878,15 +23878,15 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>35256-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-40549 affecting package shim for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40549 affecting package shim for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim is earlier than 15.8-3, affected by CVE-2023-40549" test_ref="oval:com.microsoft.azurelinux:tst:35256000"/>
+        <criterion comment="Package shim is earlier than 15.8-5, affected by CVE-2023-40549" test_ref="oval:com.microsoft.azurelinux:tst:35256000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35255" version="1">
       <metadata>
-        <title>CVE-2023-40548 affecting package shim for versions less than 15.8-3</title>
+        <title>CVE-2023-40548 affecting package shim for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23895,15 +23895,15 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>35255-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-40548 affecting package shim for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40548 affecting package shim for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim is earlier than 15.8-3, affected by CVE-2023-40548" test_ref="oval:com.microsoft.azurelinux:tst:35255000"/>
+        <criterion comment="Package shim is earlier than 15.8-5, affected by CVE-2023-40548" test_ref="oval:com.microsoft.azurelinux:tst:35255000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35254" version="1">
       <metadata>
-        <title>CVE-2023-40547 affecting package shim for versions less than 15.8-3</title>
+        <title>CVE-2023-40547 affecting package shim for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23912,15 +23912,15 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>35254-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-40547 affecting package shim for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40547 affecting package shim for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim is earlier than 15.8-3, affected by CVE-2023-40547" test_ref="oval:com.microsoft.azurelinux:tst:35254000"/>
+        <criterion comment="Package shim is earlier than 15.8-5, affected by CVE-2023-40547" test_ref="oval:com.microsoft.azurelinux:tst:35254000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35253" version="1">
       <metadata>
-        <title>CVE-2023-40546 affecting package shim for versions less than 15.8-3</title>
+        <title>CVE-2023-40546 affecting package shim for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23929,15 +23929,15 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>35253-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-40546 affecting package shim for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-40546 affecting package shim for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim is earlier than 15.8-3, affected by CVE-2023-40546" test_ref="oval:com.microsoft.azurelinux:tst:35253000"/>
+        <criterion comment="Package shim is earlier than 15.8-5, affected by CVE-2023-40546" test_ref="oval:com.microsoft.azurelinux:tst:35253000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35252" version="1">
       <metadata>
-        <title>CVE-2022-28737 affecting package shim for versions less than 15.8-3</title>
+        <title>CVE-2022-28737 affecting package shim for versions less than 15.8-5</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
@@ -23946,10 +23946,10 @@
         <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>35252-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-28737 affecting package shim for versions less than 15.8-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2022-28737 affecting package shim for versions less than 15.8-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package shim is earlier than 15.8-3, affected by CVE-2022-28737" test_ref="oval:com.microsoft.azurelinux:tst:35252000"/>
+        <criterion comment="Package shim is earlier than 15.8-5, affected by CVE-2022-28737" test_ref="oval:com.microsoft.azurelinux:tst:35252000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35251" version="1">
@@ -34586,7 +34586,7 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41093001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41093002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2019-14584" id="oval:com.microsoft.azurelinux:tst:41086000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2019-14584" id="oval:com.microsoft.azurelinux:tst:41086000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41086001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41086002"/>
     </linux-def:rpminfo_test>
@@ -34594,7 +34594,7 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41064001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41064002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2022-28737" id="oval:com.microsoft.azurelinux:tst:41063000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2022-28737" id="oval:com.microsoft.azurelinux:tst:41063000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41063001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41063002"/>
     </linux-def:rpminfo_test>
@@ -34614,7 +34614,7 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40943001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40943002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2022-28737" id="oval:com.microsoft.azurelinux:tst:40910000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2022-28737" id="oval:com.microsoft.azurelinux:tst:40910000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40910001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40910002"/>
     </linux-def:rpminfo_test>
@@ -34634,7 +34634,7 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40841001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40841002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2019-14584" id="oval:com.microsoft.azurelinux:tst:40833000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2019-14584" id="oval:com.microsoft.azurelinux:tst:40833000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40833001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40833002"/>
     </linux-def:rpminfo_test>
@@ -36214,71 +36214,71 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35282001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35282002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2023-40547" id="oval:com.microsoft.azurelinux:tst:35278000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2023-40547" id="oval:com.microsoft.azurelinux:tst:35278000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35278001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35278002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2023-40550" id="oval:com.microsoft.azurelinux:tst:35277000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2023-40550" id="oval:com.microsoft.azurelinux:tst:35277000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35277001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35277002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2023-40548" id="oval:com.microsoft.azurelinux:tst:35275000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2023-40548" id="oval:com.microsoft.azurelinux:tst:35275000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35275001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35275002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2023-40549" id="oval:com.microsoft.azurelinux:tst:35273000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2023-40549" id="oval:com.microsoft.azurelinux:tst:35273000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35273001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35273002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-3, affected by CVE-2023-40546" id="oval:com.microsoft.azurelinux:tst:35271000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-x64 is earlier than 15.8-5, affected by CVE-2023-40546" id="oval:com.microsoft.azurelinux:tst:35271000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35271001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35271002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2023-40547" id="oval:com.microsoft.azurelinux:tst:35267000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2023-40547" id="oval:com.microsoft.azurelinux:tst:35267000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35267001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35267002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2023-40550" id="oval:com.microsoft.azurelinux:tst:35265000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2023-40550" id="oval:com.microsoft.azurelinux:tst:35265000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35265001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35265002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2023-40549" id="oval:com.microsoft.azurelinux:tst:35264000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2023-40549" id="oval:com.microsoft.azurelinux:tst:35264000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35264001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35264002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2023-40548" id="oval:com.microsoft.azurelinux:tst:35263000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2023-40548" id="oval:com.microsoft.azurelinux:tst:35263000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35263001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35263002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-3, affected by CVE-2023-40546" id="oval:com.microsoft.azurelinux:tst:35261000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2023-40546" id="oval:com.microsoft.azurelinux:tst:35261000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35261001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35261002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-3, affected by CVE-2023-40551" id="oval:com.microsoft.azurelinux:tst:35258000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-5, affected by CVE-2023-40551" id="oval:com.microsoft.azurelinux:tst:35258000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35258001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35258002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-3, affected by CVE-2023-40550" id="oval:com.microsoft.azurelinux:tst:35257000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-5, affected by CVE-2023-40550" id="oval:com.microsoft.azurelinux:tst:35257000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35257001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35257002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-3, affected by CVE-2023-40549" id="oval:com.microsoft.azurelinux:tst:35256000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-5, affected by CVE-2023-40549" id="oval:com.microsoft.azurelinux:tst:35256000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35256001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35256002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-3, affected by CVE-2023-40548" id="oval:com.microsoft.azurelinux:tst:35255000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-5, affected by CVE-2023-40548" id="oval:com.microsoft.azurelinux:tst:35255000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35255001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35255002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-3, affected by CVE-2023-40547" id="oval:com.microsoft.azurelinux:tst:35254000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-5, affected by CVE-2023-40547" id="oval:com.microsoft.azurelinux:tst:35254000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35254001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35254002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-3, affected by CVE-2023-40546" id="oval:com.microsoft.azurelinux:tst:35253000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-5, affected by CVE-2023-40546" id="oval:com.microsoft.azurelinux:tst:35253000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35253001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35253002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-3, affected by CVE-2022-28737" id="oval:com.microsoft.azurelinux:tst:35252000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package shim is earlier than 15.8-5, affected by CVE-2022-28737" id="oval:com.microsoft.azurelinux:tst:35252000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35252001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35252002"/>
     </linux-def:rpminfo_test>
@@ -46355,13 +46355,13 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:1.75.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41086002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41064002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.21.6-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41063002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41054002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.35.1-1.azl3</linux-def:evr>
@@ -46376,7 +46376,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:0.8-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40910002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40907002" version="2">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.58.1-1.azl3</linux-def:evr>
@@ -46391,7 +46391,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:1.9.5-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40833002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40812002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.2.1-3.azl3</linux-def:evr>
@@ -47576,55 +47576,55 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:3.5.1-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35278002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35277002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35275002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35273002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35271002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35267002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35265002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35264002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35263002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35261002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35258002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35257002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35256002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35255002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35254002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35253002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35252002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-3.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35251002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:4.15.2-21.azl3</linux-def:evr>
