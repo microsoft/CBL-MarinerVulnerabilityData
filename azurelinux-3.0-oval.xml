@@ -3,10 +3,27 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-12-20T13:05:49.705322418Z</oval:timestamp>
-    <oval:content_version>1734699949</oval:content_version>
+    <oval:timestamp>2024-12-21T13:03:49.680101809Z</oval:timestamp>
+    <oval:content_version>1734786229</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:54363" version="0">
+      <metadata>
+        <title>CVE-2024-45337 affecting package telegraf for versions less than 1.31.0-3</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-45337" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-45337" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-12-20T18:42:18Z</advisory_date>
+        <advisory_id>54363</advisory_id>
+        <severity>Critical</severity>
+        <description>CVE-2024-45337 affecting package telegraf for versions less than 1.31.0-3. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package telegraf is earlier than 1.31.0-3, affected by CVE-2024-45337" test_ref="oval:com.microsoft.azurelinux:tst:54363000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:54051" version="0">
       <metadata>
         <title>CVE-2024-53846 affecting package erlang for versions less than 26.2.5.6-1</title>
@@ -10724,7 +10741,7 @@
         <reference ref_id="CVE-2024-6874" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-6874" source="CVE"/>
         <patchable>true</patchable>
         <advisory_id>47020-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>Low</severity>
         <description>CVE-2024-6874 affecting package curl for versions less than 8.8.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -14535,6 +14552,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python-idna is earlier than 3.7-1, affected by CVE-2024-3651" test_ref="oval:com.microsoft.azurelinux:tst:43204000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:43198" version="0">
+      <metadata>
+        <title>CVE-2024-5569 affecting package python-zipp for versions less than 3.17.0-3</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-5569" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-5569" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-12-20T18:42:18Z</advisory_date>
+        <advisory_id>43198</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-5569 affecting package python-zipp for versions less than 3.17.0-3. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package python-zipp is earlier than 3.17.0-3, affected by CVE-2024-5569" test_ref="oval:com.microsoft.azurelinux:tst:43198000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:43170" version="1">
@@ -22794,6 +22828,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package flannel is earlier than 0.24.2-8, affected by CVE-2024-24786" test_ref="oval:com.microsoft.azurelinux:tst:35645000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35644" version="0">
+      <metadata>
+        <title>CVE-2024-24786 affecting package etcd for versions less than 3.5.12-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-24786" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-24786" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-12-20T18:42:18Z</advisory_date>
+        <advisory_id>35644</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-24786 affecting package etcd for versions less than 3.5.12-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package etcd is earlier than 3.5.12-2, affected by CVE-2024-24786" test_ref="oval:com.microsoft.azurelinux:tst:35644000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35643" version="1">
@@ -31131,6 +31182,10 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package telegraf is earlier than 1.31.0-3, affected by CVE-2024-45337" id="oval:com.microsoft.azurelinux:tst:54363000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:54363001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:54363002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package erlang is earlier than 26.2.5.6-1, affected by CVE-2024-53846" id="oval:com.microsoft.azurelinux:tst:54051000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:54051001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:54051002"/>
@@ -34615,6 +34670,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:43204001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:43204002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package python-zipp is earlier than 3.17.0-3, affected by CVE-2024-5569" id="oval:com.microsoft.azurelinux:tst:43198000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:43198001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:43198002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package httpd is earlier than 2.4.61-1, affected by CVE-2024-39884" id="oval:com.microsoft.azurelinux:tst:43170000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:43170001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:43170002"/>
@@ -36570,6 +36629,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package flannel is earlier than 0.24.2-8, affected by CVE-2024-24786" id="oval:com.microsoft.azurelinux:tst:35645000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35645001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35645002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package etcd is earlier than 3.5.12-2, affected by CVE-2024-24786" id="oval:com.microsoft.azurelinux:tst:35644000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35644001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35644002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package docker-compose is earlier than 2.27.0-1, affected by CVE-2024-24786" id="oval:com.microsoft.azurelinux:tst:35643000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35643001"/>
@@ -38561,6 +38624,9 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:54363001" version="0">
+      <linux-def:name>telegraf</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:54051001" version="0">
       <linux-def:name>erlang</linux-def:name>
     </linux-def:rpminfo_object>
@@ -41174,6 +41240,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:43204001" version="1">
       <linux-def:name>python-idna</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:43198001" version="0">
+      <linux-def:name>python-zipp</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:43170001" version="1">
       <linux-def:name>httpd</linux-def:name>
     </linux-def:rpminfo_object>
@@ -42640,6 +42709,9 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35645001" version="0">
       <linux-def:name>flannel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35644001" version="0">
+      <linux-def:name>etcd</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35643001" version="1">
       <linux-def:name>docker-compose</linux-def:name>
@@ -44134,6 +44206,9 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:54363002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.31.0-3.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:54051002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:26.2.5.6-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -46747,6 +46822,9 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:43204002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.7-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:43198002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:3.17.0-3.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:43170002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.4.61-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -48213,6 +48291,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35645002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:0.24.2-8.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35644002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:3.5.12-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35643002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.27.0-1.azl3</linux-def:evr>
