@@ -3,11 +3,11 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-12-31T13:04:44.534716628Z</oval:timestamp>
-    <oval:content_version>1735650284</oval:content_version>
+    <oval:timestamp>2025-01-01T13:03:39.605172807Z</oval:timestamp>
+    <oval:content_version>1735736619</oval:content_version>
   </generator>
   <definitions>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:54657" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:54657" version="1">
       <metadata>
         <title>CVE-2024-40896 affecting package libxml2 for versions less than 2.11.5-2</title>
         <affected family="unix">
@@ -16,7 +16,7 @@
         <reference ref_id="CVE-2024-40896" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-40896" source="CVE"/>
         <patchable>true</patchable>
         <advisory_date>2024-12-27T21:22:10Z</advisory_date>
-        <advisory_id>54657</advisory_id>
+        <advisory_id>54657-1</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2024-40896 affecting package libxml2 for versions less than 2.11.5-2. A patched version of the package is available.</description>
       </metadata>
@@ -31301,7 +31301,7 @@
     </definition>
   </definitions>
   <tests>
-    <linux-def:rpminfo_test check="at least one" comment="Package libxml2 is earlier than 2.11.5-2, affected by CVE-2024-40896" id="oval:com.microsoft.azurelinux:tst:54657000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package libxml2 is earlier than 2.11.5-2, affected by CVE-2024-40896" id="oval:com.microsoft.azurelinux:tst:54657000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:54657001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:54657002"/>
     </linux-def:rpminfo_test>
@@ -38771,7 +38771,7 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:54657001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:54657001" version="1">
       <linux-def:name>libxml2</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:54455001" version="1">
@@ -44374,7 +44374,7 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:54657002" version="0">
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:54657002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.11.5-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:54455002" version="1">
