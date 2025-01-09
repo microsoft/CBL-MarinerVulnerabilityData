@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2025-01-08T13:04:04.141483077Z</oval:timestamp>
-    <oval:content_version>1736341444</oval:content_version>
+    <oval:timestamp>2025-01-09T13:06:08.804421379Z</oval:timestamp>
+    <oval:content_version>1736427968</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:54657" version="1">
@@ -5321,7 +5321,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-11-08T21:38:16Z</advisory_date>
         <advisory_id>50166-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>Low</severity>
         <description>CVE-2024-8925 affecting package php for versions less than 8.3.12-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -10860,7 +10860,7 @@
         <reference ref_id="CVE-2024-6874" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-6874" source="CVE"/>
         <patchable>true</patchable>
         <advisory_id>47020-1</advisory_id>
-        <severity>Low</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-6874 affecting package curl for versions less than 8.8.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
