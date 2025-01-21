@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2025-01-20T13:03:51.24101868Z</oval:timestamp>
-    <oval:content_version>1737378231</oval:content_version>
+    <oval:timestamp>2025-01-21T13:03:37.571512239Z</oval:timestamp>
+    <oval:content_version>1737464617</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:55691" version="1">
@@ -1462,7 +1462,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-11-08T21:38:16Z</advisory_date>
         <advisory_id>52379</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-50005 affecting package kernel for versions less than 6.6.57.1-2. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -11318,7 +11318,7 @@
         <reference ref_id="CVE-2024-6874" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-6874" source="CVE"/>
         <patchable>true</patchable>
         <advisory_id>47020-1</advisory_id>
-        <severity>Low</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-6874 affecting package curl for versions less than 8.8.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
