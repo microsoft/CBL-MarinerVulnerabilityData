@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2025-01-27T13:03:55.628243756Z</oval:timestamp>
-    <oval:content_version>1737983035</oval:content_version>
+    <oval:timestamp>2025-01-28T13:05:02.08373593Z</oval:timestamp>
+    <oval:content_version>1738069502</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:55691" version="1">
@@ -1481,23 +1481,6 @@
       <criteria operator="AND">
         <criterion comment="Package golang is earlier than 1.20.2-1, affected by CVE-2023-24532" test_ref="oval:com.microsoft.azurelinux:tst:52875000"/>
         <criterion comment="Package golang is greater than 0.0.0, affected by CVE-2023-24532" test_ref="oval:com.microsoft.azurelinux:tst:52875003"/>
-      </criteria>
-    </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52868" version="0">
-      <metadata>
-        <title>CVE-2022-41715 affecting package golang for versions less than 1.21.6-2</title>
-        <affected family="unix">
-          <platform>Azure Linux</platform>
-        </affected>
-        <reference ref_id="CVE-2022-41715" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41715" source="CVE"/>
-        <patchable>true</patchable>
-        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
-        <advisory_id>52868</advisory_id>
-        <severity>High</severity>
-        <description>CVE-2022-41715 affecting package golang for versions less than 1.21.6-2. A patched version of the package is available.</description>
-      </metadata>
-      <criteria operator="AND">
-        <criterion comment="Package golang is earlier than 1.21.6-2, affected by CVE-2022-41715" test_ref="oval:com.microsoft.azurelinux:tst:52868000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52845" version="2">
@@ -32608,10 +32591,6 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52875001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:52875002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is earlier than 1.21.6-2, affected by CVE-2022-41715" id="oval:com.microsoft.azurelinux:tst:52868000" version="0">
-      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52868001"/>
-      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:52868002"/>
-    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package golang is greater than 0.0.0, affected by CVE-2023-39323" id="oval:com.microsoft.azurelinux:tst:52845003" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52845004"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:52845005"/>
@@ -40212,9 +40191,6 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52875001" version="1">
       <linux-def:name>golang</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52868001" version="0">
-      <linux-def:name>golang</linux-def:name>
-    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52845004" version="1">
       <linux-def:name>golang</linux-def:name>
     </linux-def:rpminfo_object>
@@ -45982,9 +45958,6 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52875002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.20.2-1.azl3</linux-def:evr>
-    </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52868002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than">0:1.21.6-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52845005" version="1">
       <linux-def:evr datatype="evr_string" operation="greater than">0:0.0.0.azl3</linux-def:evr>
