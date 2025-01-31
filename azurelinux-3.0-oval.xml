@@ -1,10 +1,10 @@
 <oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:linux-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-common-5 https://oval.mitre.org/language/version5.11/ovaldefinition/complete/oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 https://oval.mitre.org/language/version5.11/ovaldefinition/complete/oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux https://oval.mitre.org/language/version5.11/ovaldefinition/complete/linux-definitions-schema.xsd ">
   <generator>
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
-    <oval:product_version>17</oval:product_version>
+    <oval:product_version>18</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2025-01-30T13:03:52.80976961Z</oval:timestamp>
-    <oval:content_version>1738242232</oval:content_version>
+    <oval:timestamp>2025-01-31T13:05:40.785227904Z</oval:timestamp>
+    <oval:content_version>1738328740</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:55898" version="1">
@@ -950,6 +950,7 @@
         </affected>
         <reference ref_id="CVE-2024-56757" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-56757" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>55038-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-56757 affecting package kernel for versions less than 6.6.57.1-5. A patched version of the package is available.</description>
@@ -2989,6 +2990,7 @@
         </affected>
         <reference ref_id="CVE-2024-47850" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-47850" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-07-22T15:42:40Z</advisory_date>
         <advisory_id>53837-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2024-47850 affecting package cups for versions less than 1.28.17-3. A patched version of the package is available.</description>
@@ -4637,6 +4639,7 @@
         </affected>
         <reference ref_id="CVE-2023-52601" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-52601" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>53117-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-52601 affecting package kernel for versions less than 6.6.57.1-5. A patched version of the package is available.</description>
@@ -4976,6 +4979,7 @@
         </affected>
         <reference ref_id="CVE-2023-29409" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-29409" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>52881-2</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2023-29409 affecting package golang for versions less than 1.20.7-1. A patched version of the package is available.</description>
@@ -4993,6 +4997,7 @@
         </affected>
         <reference ref_id="CVE-2023-24534" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-24534" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>52878-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-24534 affecting package golang for versions less than 1.20.7-1. A patched version of the package is available.</description>
@@ -5010,6 +5015,7 @@
         </affected>
         <reference ref_id="CVE-2023-24532" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-24532" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>52875-2</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2023-24532 affecting package golang for versions less than 1.20.2-1. A patched version of the package is available.</description>
@@ -5027,6 +5033,7 @@
         </affected>
         <reference ref_id="CVE-2023-39323" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39323" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>52845-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-39323 affecting package golang for versions less than  1.20.10-1. A patched version of the package is available.</description>
@@ -5044,6 +5051,7 @@
         </affected>
         <reference ref_id="CVE-2023-29405" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-29405" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>52827-2</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2023-29405 affecting package golang for versions less than 1.20.7-1. A patched version of the package is available.</description>
@@ -5061,6 +5069,7 @@
         </affected>
         <reference ref_id="CVE-2023-29403" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-29403" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>52789-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-29403 affecting package golang for versions less than 1.20.7-1. A patched version of the package is available.</description>
@@ -5096,6 +5105,7 @@
         </affected>
         <reference ref_id="CVE-2023-39533" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39533" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>52773-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-39533 affecting package golang for versions less than 1.19.12-1. A patched version of the package is available.</description>
@@ -5113,6 +5123,7 @@
         </affected>
         <reference ref_id="CVE-2023-39318" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39318" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>52735-2</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2023-39318 affecting package golang for versions less than 1.20.10-1. A patched version of the package is available.</description>
@@ -5130,6 +5141,7 @@
         </affected>
         <reference ref_id="CVE-2023-24531" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-24531" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>52719-2</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2023-24531 affecting package golang for versions less than 1.21.0-1. A patched version of the package is available.</description>
@@ -5147,6 +5159,7 @@
         </affected>
         <reference ref_id="CVE-2023-29406" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-29406" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>52711-2</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2023-29406 affecting package golang for versions less than 1.20.7-1. A patched version of the package is available.</description>
@@ -5164,6 +5177,7 @@
         </affected>
         <reference ref_id="CVE-2023-24537" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-24537" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>52676-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-24537 affecting package golang for versions less than 1.20.7-1. A patched version of the package is available.</description>
@@ -5181,6 +5195,7 @@
         </affected>
         <reference ref_id="CVE-2023-24539" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-24539" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>52668-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-24539 affecting package golang for versions less than 1.20.7-1. A patched version of the package is available.</description>
@@ -5198,6 +5213,7 @@
         </affected>
         <reference ref_id="CVE-2024-24789" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-24789" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>52663-2</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-24789 affecting package golang for versions less than 1.22.3-1. A patched version of the package is available.</description>
@@ -7510,6 +7526,7 @@
         </affected>
         <reference ref_id="CVE-2024-2410" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-2410" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-11-08T21:38:16Z</advisory_date>
         <advisory_id>51319-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2024-2410 affecting package mysql for versions less than 8.0.40-2. A patched version of the package is available.</description>
@@ -11079,6 +11096,7 @@
         </affected>
         <reference ref_id="CVE-2024-42861" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-42861" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-07-23T02:21:02Z</advisory_date>
         <advisory_id>49740-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2024-42861 affecting package linuxptp for versions less than 3.1.1-1. A patched version of the package is available.</description>
@@ -11095,6 +11113,7 @@
         </affected>
         <reference ref_id="CVE-2024-45773" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-45773" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-07-22T19:00:45Z</advisory_date>
         <advisory_id>49728-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2024-45773 affecting package thrift for versions less than 0.15.0-5. A patched version of the package is available.</description>
@@ -13236,10 +13255,10 @@
         </affected>
         <reference ref_id="CVE-2024-5991" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-5991" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-12-06T15:52:41Z</advisory_date>
+        <advisory_date>2024-07-23T02:21:02Z</advisory_date>
         <advisory_id>48368-2</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2024-5991 affecting package mariadb for versions less than 10.6.9-6. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2024-5991 affecting package mariadb for versions less than 10.6.9-6. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mariadb is earlier than 10.6.9-6, affected by CVE-2024-5991" test_ref="oval:com.microsoft.azurelinux:tst:48368000"/>
@@ -14579,6 +14598,7 @@
         </affected>
         <reference ref_id="CVE-2024-26875" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-26875" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-12-06T15:52:41Z</advisory_date>
         <advisory_id>47666-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-26875 affecting package kernel for versions less than 6.6.57.1-5. A patched version of the package is available.</description>
@@ -14612,6 +14632,7 @@
         </affected>
         <reference ref_id="CVE-2024-35955" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-35955" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>47642-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2024-35955 affecting package kernel for versions less than 6.6.28.1-1. A patched version of the package is available.</description>
@@ -14628,6 +14649,7 @@
         </affected>
         <reference ref_id="CVE-2023-52755" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-52755" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>47639-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-52755 affecting package kernel for versions less than 6.6.3.1-1. A patched version of the package is available.</description>
@@ -15904,6 +15926,7 @@
         </affected>
         <reference ref_id="CVE-2024-6874" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-6874" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-07-22T15:42:40Z</advisory_date>
         <advisory_id>47020-1</advisory_id>
         <severity>Low</severity>
         <description>CVE-2024-6874 affecting package curl for versions less than 8.8.0-1. A patched version of the package is available.</description>
@@ -15971,10 +15994,10 @@
         </affected>
         <reference ref_id="CVE-2024-40902" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-40902" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T15:42:40Z</advisory_date>
+        <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>47010-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2024-40902 affecting package kernel for versions less than 6.6.35.1-1. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2024-40902 affecting package kernel for versions less than 6.6.35.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 6.6.35.1-1, affected by CVE-2024-40902" test_ref="oval:com.microsoft.azurelinux:tst:47010000"/>
@@ -15988,10 +16011,10 @@
         </affected>
         <reference ref_id="CVE-2024-39495" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-39495" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T15:42:40Z</advisory_date>
+        <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>47007-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2024-39495 affecting package kernel for versions less than 6.6.35.1-1. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2024-39495 affecting package kernel for versions less than 6.6.35.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 6.6.35.1-1, affected by CVE-2024-39495" test_ref="oval:com.microsoft.azurelinux:tst:47007000"/>
@@ -16175,10 +16198,10 @@
         </affected>
         <reference ref_id="CVE-2021-3712" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3712" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T23:01:50Z</advisory_date>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>46917-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-3712 affecting package edk2 for versions less than 20240223gitedc6681206c1-1. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2021-3712 affecting package edk2 for versions less than 20240223gitedc6681206c1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package edk2 is earlier than 20240223gitedc6681206c1-1, affected by CVE-2021-3712" test_ref="oval:com.microsoft.azurelinux:tst:46917000"/>
@@ -16328,10 +16351,10 @@
         </affected>
         <reference ref_id="CVE-2022-0778" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-0778" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T23:01:50Z</advisory_date>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>46860-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-0778 affecting package edk2 for versions less than 20240223gitedc6681206c1-1. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2022-0778 affecting package edk2 for versions less than 20240223gitedc6681206c1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package edk2 is earlier than 20240223gitedc6681206c1-1, affected by CVE-2022-0778" test_ref="oval:com.microsoft.azurelinux:tst:46860000"/>
@@ -16566,10 +16589,10 @@
         </affected>
         <reference ref_id="CVE-2021-3711" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3711" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T23:01:50Z</advisory_date>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>46750-1</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2021-3711 affecting package edk2 for versions less than 20240223gitedc6681206c1-1. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2021-3711 affecting package edk2 for versions less than 20240223gitedc6681206c1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package edk2 is earlier than 20240223gitedc6681206c1-1, affected by CVE-2021-3711" test_ref="oval:com.microsoft.azurelinux:tst:46750000"/>
@@ -17025,10 +17048,10 @@
         </affected>
         <reference ref_id="CVE-2022-2097" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-2097" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T23:01:50Z</advisory_date>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>46548-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-2097 affecting package edk2 for versions less than 20240223gitedc6681206c1-1. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2022-2097 affecting package edk2 for versions less than 20240223gitedc6681206c1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package edk2 is earlier than 20240223gitedc6681206c1-1, affected by CVE-2022-2097" test_ref="oval:com.microsoft.azurelinux:tst:46548000"/>
@@ -18198,10 +18221,10 @@
         </affected>
         <reference ref_id="CVE-2022-1292" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-1292" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T23:01:50Z</advisory_date>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>45966-1</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-1292 affecting package edk2 for versions less than 20240223gitedc6681206c1-1. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2022-1292 affecting package edk2 for versions less than 20240223gitedc6681206c1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package edk2 is earlier than 20240223gitedc6681206c1-1, affected by CVE-2022-1292" test_ref="oval:com.microsoft.azurelinux:tst:45966000"/>
@@ -19575,6 +19598,7 @@
         </affected>
         <reference ref_id="CVE-2024-6345" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-6345" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-10-25T19:50:27Z</advisory_date>
         <advisory_id>43326-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2024-6345 affecting package python-pip for versions less than 24.2-1. A patched version of the package is available.</description>
@@ -19659,6 +19683,7 @@
         </affected>
         <reference ref_id="CVE-2023-52696" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-52696" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>43242-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-52696 affecting package kernel for versions less than 6.6.14.1-1. A patched version of the package is available.</description>
@@ -19879,6 +19904,7 @@
         </affected>
         <reference ref_id="CVE-2024-24791" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-24791" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>43068-3</advisory_id>
         <severity>High</severity>
         <description>CVE-2024-24791 affecting package golang for versions less than 1.22.5-1. A patched version of the package is available.</description>
@@ -20015,6 +20041,7 @@
         </affected>
         <reference ref_id="CVE-2024-29039" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-29039" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-07-22T19:00:45Z</advisory_date>
         <advisory_id>43015-1</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2024-29039 affecting package tpm2-tools for versions less than 5.5.1-1. A patched version of the package is available.</description>
@@ -20354,6 +20381,7 @@
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-12-05T00:57:14Z</advisory_date>
         <advisory_id>42861-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-39325 affecting package multus for versions less than 4.0.2-3. A patched version of the package is available.</description>
@@ -21594,6 +21622,7 @@
         </affected>
         <reference ref_id="CVE-2020-27545" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-27545" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>42093-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2020-27545 affecting package libdwarf for versions less than 0.9.0-1. A patched version of the package is available.</description>
@@ -21610,6 +21639,7 @@
         </affected>
         <reference ref_id="CVE-2020-28163" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-28163" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>42090-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2020-28163 affecting package libdwarf for versions less than 0.9.0-1. A patched version of the package is available.</description>
@@ -21626,6 +21656,7 @@
         </affected>
         <reference ref_id="CVE-2016-8681" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2016-8681" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>42084-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2016-8681 affecting package libdwarf for versions less than 0.9.0-1. A patched version of the package is available.</description>
@@ -21642,6 +21673,7 @@
         </affected>
         <reference ref_id="CVE-2019-14249" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2019-14249" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>42081-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2019-14249 affecting package libdwarf for versions less than 0.9.0-1. A patched version of the package is available.</description>
@@ -21811,6 +21843,7 @@
         </affected>
         <reference ref_id="CVE-2018-1000215" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2018-1000215" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-07-23T02:21:02Z</advisory_date>
         <advisory_id>41919-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2018-1000215 affecting package libglvnd for versions less than 1.7.0-2. A patched version of the package is available.</description>
@@ -21861,6 +21894,7 @@
         </affected>
         <reference ref_id="CVE-2022-0326" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-0326" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>41829-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2022-0326 affecting package rust for versions less than 1.75.0-1. A patched version of the package is available.</description>
@@ -21979,6 +22013,7 @@
         </affected>
         <reference ref_id="CVE-2022-0890" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-0890" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>41766-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2022-0890 affecting package rust for versions less than 1.75.0-1. A patched version of the package is available.</description>
@@ -22097,6 +22132,7 @@
         </affected>
         <reference ref_id="CVE-2018-1000217" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2018-1000217" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>41629-1</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2018-1000217 affecting package libglvnd for versions less than 1.7.0-2. A patched version of the package is available.</description>
@@ -22215,6 +22251,7 @@
         </affected>
         <reference ref_id="CVE-2022-32215" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-32215" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>41446-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2022-32215 affecting package rust for versions less than 1.75.0-1. A patched version of the package is available.</description>
@@ -22316,6 +22353,7 @@
         </affected>
         <reference ref_id="CVE-2022-0632" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-0632" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>41314-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2022-0632 affecting package rust for versions less than 1.75.0-1. A patched version of the package is available.</description>
@@ -22451,6 +22489,7 @@
         </affected>
         <reference ref_id="CVE-2022-0614" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-0614" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>41096-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2022-0614 affecting package rust for versions less than 1.75.0-1. A patched version of the package is available.</description>
@@ -22467,6 +22506,7 @@
         </affected>
         <reference ref_id="CVE-2022-1201" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-1201" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>41093-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2022-1201 affecting package rust for versions less than 1.75.0-1. A patched version of the package is available.</description>
@@ -22534,6 +22574,7 @@
         </affected>
         <reference ref_id="CVE-2021-42374" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-42374" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>41054-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2021-42374 affecting package busybox for versions less than 1.35.1-1. A patched version of the package is available.</description>
@@ -22550,6 +22591,7 @@
         </affected>
         <reference ref_id="CVE-2022-32213" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-32213" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>41051-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2022-32213 affecting package rust for versions less than 1.75.0-1. A patched version of the package is available.</description>
@@ -22634,6 +22676,7 @@
         </affected>
         <reference ref_id="CVE-2022-32214" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-32214" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40893-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2022-32214 affecting package rust for versions less than 1.75.0-1. A patched version of the package is available.</description>
@@ -23398,6 +23441,7 @@
         </affected>
         <reference ref_id="CVE-2024-24788" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-24788" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-05-31T18:55:08Z</advisory_date>
         <advisory_id>40375-3</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-24788 affecting package golang for versions less than 1.22.3-1. A patched version of the package is available.</description>
@@ -23619,6 +23663,7 @@
         </affected>
         <reference ref_id="CVE-2023-50230" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-50230" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-07-02T23:30:04Z</advisory_date>
         <advisory_id>40237-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-50230 affecting package bluez for versions less than 5.63-5. A patched version of the package is available.</description>
@@ -24978,6 +25023,7 @@
         </affected>
         <reference ref_id="CVE-2024-28182" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-28182" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-07-22T15:42:40Z</advisory_date>
         <advisory_id>38728-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-28182 affecting package cmake for versions less than 3.29.6-1. A patched version of the package is available.</description>
@@ -25011,6 +25057,7 @@
         </affected>
         <reference ref_id="CVE-2024-28182" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-28182" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>38719-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-28182 affecting package rust for versions less than 1.75.0-1. A patched version of the package is available.</description>
@@ -26404,6 +26451,7 @@
         </affected>
         <reference ref_id="CVE-2024-30204" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-30204" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-04-17T22:02:46Z</advisory_date>
         <advisory_id>37106-1</advisory_id>
         <severity>Low</severity>
         <description>CVE-2024-30204 affecting package emacs for versions less than 29.3. A patched version of the package is available.</description>
@@ -28885,10 +28933,10 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T19:00:45Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35350-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-44487 affecting package vitess for versions less than 16.0.2-5. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-44487 affecting package vitess for versions less than 16.0.2-5. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package vitess is earlier than 16.0.2-5, affected by CVE-2023-44487" test_ref="oval:com.microsoft.azurelinux:tst:35350000"/>
@@ -28902,10 +28950,10 @@
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T19:00:45Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35349-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-39325 affecting package vitess for versions less than 16.0.2-5. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-39325 affecting package vitess for versions less than 16.0.2-5. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package vitess is earlier than 16.0.2-5, affected by CVE-2023-39325" test_ref="oval:com.microsoft.azurelinux:tst:35349000"/>
@@ -29293,10 +29341,10 @@
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-04-17T22:02:46Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35302-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-39325 affecting package telegraf for versions less than 1.27.3-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-39325 affecting package telegraf for versions less than 1.27.3-3. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package telegraf is earlier than 1.27.3-3, affected by CVE-2023-39325" test_ref="oval:com.microsoft.azurelinux:tst:35302000"/>
@@ -29361,10 +29409,10 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-04-17T22:02:46Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35297-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-44487 affecting package telegraf for versions less than 1.27.3-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-44487 affecting package telegraf for versions less than 1.27.3-3. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package telegraf is earlier than 1.27.3-3, affected by CVE-2023-44487" test_ref="oval:com.microsoft.azurelinux:tst:35297000"/>
@@ -29497,10 +29545,10 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35282-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-44487 affecting package sriov-network-device-plugin for versions less than 3.5.1-2. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-44487 affecting package sriov-network-device-plugin for versions less than 3.5.1-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package sriov-network-device-plugin is earlier than 3.5.1-2, affected by CVE-2023-44487" test_ref="oval:com.microsoft.azurelinux:tst:35282000"/>
@@ -29820,6 +29868,7 @@
         </affected>
         <reference ref_id="CVE-2023-3817" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-3817" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35247-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2023-3817 affecting package rust for versions less than 1.68.2-5. A patched version of the package is available.</description>
@@ -29853,6 +29902,7 @@
         </affected>
         <reference ref_id="CVE-2022-35256" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-35256" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>35235-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2022-35256 affecting package rust for versions less than 1.75.0-1. A patched version of the package is available.</description>
@@ -29886,6 +29936,7 @@
         </affected>
         <reference ref_id="CVE-2023-45853" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-45853" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35229-1</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2023-45853 affecting package rubygem-mini_portile2 for versions less than 2.8.0-1. A patched version of the package is available.</description>
@@ -30446,6 +30497,7 @@
         </affected>
         <reference ref_id="CVE-2022-40896" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-40896" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-07-24T00:12:29Z</advisory_date>
         <advisory_id>35139-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2022-40896 affecting package python-pygments for versions less than 2.4.2-1. A patched version of the package is available.</description>
@@ -30700,6 +30752,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35117-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package prometheus-adapter for versions less than 0.10.0-2. A patched version of the package is available.</description>
@@ -30733,10 +30786,10 @@
         </affected>
         <reference ref_id="CVE-2022-29526" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-29526" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-04-17T22:02:46Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35115-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-29526 affecting package prometheus for versions less than 2.37.0-1. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2022-29526 affecting package prometheus for versions less than 2.37.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package prometheus is earlier than 2.37.0-1, affected by CVE-2022-29526" test_ref="oval:com.microsoft.azurelinux:tst:35115000"/>
@@ -30750,6 +30803,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35114-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package prometheus for versions less than 2.37.0-10. A patched version of the package is available.</description>
@@ -30987,10 +31041,10 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-08-14T20:43:58Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35097-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-44487 affecting package packer for versions less than 1.8.1-14. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-44487 affecting package packer for versions less than 1.8.1-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package packer is earlier than 1.8.1-14, affected by CVE-2023-44487" test_ref="oval:com.microsoft.azurelinux:tst:35097000"/>
@@ -31123,6 +31177,7 @@
         </affected>
         <reference ref_id="CVE-2023-5366" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-5366" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>35087-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2023-5366 affecting package openvswitch for versions less than 3.3.0-1. A patched version of the package is available.</description>
@@ -31139,10 +31194,10 @@
         </affected>
         <reference ref_id="CVE-2024-0727" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-0727" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-05-17T21:38:35Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35086-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2024-0727 affecting package openssl for versions less than 1.1.1k-29. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2024-0727 affecting package openssl for versions less than 1.1.1k-29. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-29, affected by CVE-2024-0727" test_ref="oval:com.microsoft.azurelinux:tst:35086000"/>
@@ -31173,10 +31228,10 @@
         </affected>
         <reference ref_id="CVE-2023-5678" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-5678" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-05-17T21:38:35Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35084-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-5678 affecting package openssl for versions less than 1.1.1k-28. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-5678 affecting package openssl for versions less than 1.1.1k-28. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-28, affected by CVE-2023-5678" test_ref="oval:com.microsoft.azurelinux:tst:35084000"/>
@@ -31326,10 +31381,10 @@
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-23T22:05:39Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35070-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-39325 affecting package opa for versions less than 0.50.2-6. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-39325 affecting package opa for versions less than 0.50.2-6. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package opa is earlier than 0.50.2-6, affected by CVE-2023-39325" test_ref="oval:com.microsoft.azurelinux:tst:35070000"/>
@@ -31360,10 +31415,10 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-23T22:05:39Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35068-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-44487 affecting package opa for versions less than 0.50.2-6. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-44487 affecting package opa for versions less than 0.50.2-6. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package opa is earlier than 0.50.2-6, affected by CVE-2023-44487" test_ref="oval:com.microsoft.azurelinux:tst:35068000"/>
@@ -31445,10 +31500,10 @@
         </affected>
         <reference ref_id="CVE-2024-0727" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-0727" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35049-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2024-0727 affecting package nodejs for versions less than 16.20.2-2. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2024-0727 affecting package nodejs for versions less than 16.20.2-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package nodejs is earlier than 16.20.2-2, affected by CVE-2024-0727" test_ref="oval:com.microsoft.azurelinux:tst:35049000"/>
@@ -31615,6 +31670,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35038-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package node-problem-detector for versions less than 0.8.10-16. A patched version of the package is available.</description>
@@ -31665,6 +31721,7 @@
         </affected>
         <reference ref_id="CVE-2023-48795" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-48795" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35030-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2023-48795 affecting package nmap for versions less than 7.93-2. A patched version of the package is available.</description>
@@ -31681,6 +31738,7 @@
         </affected>
         <reference ref_id="CVE-2020-24347" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-24347" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>35029-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2020-24347 affecting package nginx for versions less than 1.25.4-1. A patched version of the package is available.</description>
@@ -31782,7 +31840,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-12-05T00:57:14Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>35015-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package multus for versions less than 3.8-12. A patched version of the package is available.</description>
@@ -32054,7 +32112,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-04-19T22:15:55Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34997-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package moby-containerd-cc for versions less than 1.7.1-5. A patched version of the package is available.</description>
@@ -32071,7 +32129,7 @@
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-04-19T22:15:55Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34996-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-39325 affecting package moby-containerd-cc for versions less than 1.7.1-5. A patched version of the package is available.</description>
@@ -32207,6 +32265,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34964-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package local-path-provisioner for versions less than 0.0.21-12. A patched version of the package is available.</description>
@@ -32920,6 +32979,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34904-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package kubevirt for versions less than 0.59.0-9. A patched version of the package is available.</description>
@@ -33038,6 +33098,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34895-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package kubernetes for versions less than 1.28.3-1. A patched version of the package is available.</description>
@@ -33122,6 +33183,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34890-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package kube-vip-cloud-provider for versions less than 0.0.2-12. A patched version of the package is available.</description>
@@ -33937,6 +33999,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34837-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package keda for versions less than 2.4.0-14. A patched version of the package is available.</description>
@@ -33987,6 +34050,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34827-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package kata-containers-cc for versions less than 0.6.1-2. A patched version of the package is available.</description>
@@ -34003,6 +34067,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34825-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package kata-containers for versions less than 3.1.0-8. A patched version of the package is available.</description>
@@ -34036,6 +34101,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34819-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package jx for versions less than 3.2.236-13. A patched version of the package is available.</description>
@@ -34120,6 +34186,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34805-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package influxdb for versions less than 2.6.1-11. A patched version of the package is available.</description>
@@ -34561,6 +34628,7 @@
         </affected>
         <reference ref_id="CVE-2023-45287" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-45287" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>34764-3</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-45287 affecting package golang for versions less than 1.20.0-1. A patched version of the package is available.</description>
@@ -34578,6 +34646,7 @@
         </affected>
         <reference ref_id="CVE-2022-41725" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41725" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34761-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41725 affecting package golang for versions less than 1.19.5-1. A patched version of the package is available.</description>
@@ -34594,6 +34663,7 @@
         </affected>
         <reference ref_id="CVE-2022-41724" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41724" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34755-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41724 affecting package golang for versions less than 1.19.6-1. A patched version of the package is available.</description>
@@ -34610,6 +34680,7 @@
         </affected>
         <reference ref_id="CVE-2023-24538" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-24538" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34751-3</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2023-24538 affecting package golang for versions less than 1.19.8-1. A patched version of the package is available.</description>
@@ -34627,7 +34698,7 @@
         </affected>
         <reference ref_id="CVE-2022-41717" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41717" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T23:01:50Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34750-2</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2022-41717 affecting package golang for versions less than 1.17.13-2,1.18.8-2,1.21.6-1. A patched version of the package is available.</description>
@@ -34644,6 +34715,7 @@
         </affected>
         <reference ref_id="CVE-2023-29400" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-29400" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34749-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-29400 affecting package golang for versions less than 1.20.7-1. A patched version of the package is available.</description>
@@ -34661,6 +34733,7 @@
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34747-3</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-39325 affecting package golang for versions less than 1.20.7-2. A patched version of the package is available.</description>
@@ -34678,6 +34751,7 @@
         </affected>
         <reference ref_id="CVE-2023-39319" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39319" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34745-3</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2023-39319 affecting package golang for versions less than 1.20.10-1. A patched version of the package is available.</description>
@@ -35035,6 +35109,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34686-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package flannel for versions less than 0.14.0-18. A patched version of the package is available.</description>
@@ -35102,10 +35177,10 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34682-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-44487 affecting package etcd for versions less than 3.5.6-11. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-44487 affecting package etcd for versions less than 3.5.6-11. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package etcd is earlier than 3.5.6-11, affected by CVE-2023-44487" test_ref="oval:com.microsoft.azurelinux:tst:34682000"/>
@@ -35119,10 +35194,10 @@
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-06-21T09:32:44Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34681-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-39325 affecting package etcd for versions less than 3.5.6-11. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-39325 affecting package etcd for versions less than 3.5.6-11. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package etcd is earlier than 3.5.6-11, affected by CVE-2023-39325" test_ref="oval:com.microsoft.azurelinux:tst:34681000"/>
@@ -35459,7 +35534,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T15:42:40Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34626-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package coredns for versions less than 1.11.1-1. A patched version of the package is available.</description>
@@ -35476,7 +35551,7 @@
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T15:42:40Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34625-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-39325 affecting package coredns for versions less than 1.9.3-9. A patched version of the package is available.</description>
@@ -35493,7 +35568,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-01-29T17:02:14Z</advisory_date>
+        <advisory_date>2024-04-17T22:02:46Z</advisory_date>
         <advisory_id>34623-2</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package containerized-data-importer for versions less than 1.55.0-15. A patched version of the package is available.</description>
@@ -35680,6 +35755,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34609-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package cmake for versions less than 3.21.4-10. A patched version of the package is available.</description>
@@ -35848,10 +35924,11 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2023-45853" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-45853" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34597-1</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2023-45853 affecting package cloud-hypervisor for versions less than 32.0-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-45853 affecting package cloud-hypervisor for versions less than 32.0-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cloud-hypervisor is earlier than 32.0-2, affected by CVE-2023-45853" test_ref="oval:com.microsoft.azurelinux:tst:34597000"/>
@@ -35882,6 +35959,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34591-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package cf-cli for versions less than 8.4.0-13. A patched version of the package is available.</description>
@@ -35915,10 +35993,10 @@
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-08-25T15:13:42Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34588-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-39325 affecting package cert-manager for versions less than 1.11.2-5. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-39325 affecting package cert-manager for versions less than 1.11.2-5. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cert-manager is earlier than 1.11.2-5, affected by CVE-2023-39325" test_ref="oval:com.microsoft.azurelinux:tst:34588000"/>
@@ -36034,10 +36112,10 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-09-20T13:32:36Z</advisory_date>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34579-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-44487 affecting package cert-manager for versions less than 1.11.2-5. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2023-44487 affecting package cert-manager for versions less than 1.11.2-5. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cert-manager is earlier than 1.11.2-5, affected by CVE-2023-44487" test_ref="oval:com.microsoft.azurelinux:tst:34579000"/>
@@ -36102,6 +36180,7 @@
         </affected>
         <reference ref_id="CVE-2023-42364" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-42364" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-08-27T05:08:14Z</advisory_date>
         <advisory_id>34575-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2023-42364 affecting package busybox for versions less than 1.36.1-7. A patched version of the package is available.</description>
@@ -36271,6 +36350,7 @@
         </affected>
         <reference ref_id="CVE-2023-50387" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-50387" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34559-4</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-50387 affecting package bind for versions less than 9.20.0-1. A patched version of the package is available.</description>
@@ -36474,6 +36554,7 @@
         </affected>
         <reference ref_id="CVE-2022-24963" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-24963" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34546-1</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2022-24963 affecting package apr for versions less than 1.7.2-1. A patched version of the package is available.</description>
@@ -36490,6 +36571,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34545-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package application-gateway-kubernetes-ingress for versions less than 1.4.0-15. A patched version of the package is available.</description>
@@ -36506,6 +36588,7 @@
         </affected>
         <reference ref_id="CVE-2022-41723" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41723" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-07-22T23:01:50Z</advisory_date>
         <advisory_id>34543-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41723 affecting package application-gateway-kubernetes-ingress for versions less than 1.7.2-2. A patched version of the package is available.</description>
