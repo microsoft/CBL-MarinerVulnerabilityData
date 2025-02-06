@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>18</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2025-02-05T13:03:55.589227012Z</oval:timestamp>
-    <oval:content_version>1738760635</oval:content_version>
+    <oval:timestamp>2025-02-06T13:04:05.151110348Z</oval:timestamp>
+    <oval:content_version>1738847045</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:55922" version="1">
@@ -2317,6 +2317,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cmake is earlier than 3.30.3-3, affected by CVE-2024-11053" test_ref="oval:com.microsoft.azurelinux:tst:54221000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:54212" version="1">
+      <metadata>
+        <title>CVE-2024-11053 affecting package tensorflow for versions less than 2.16.1-7</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-11053" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-11053" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-05T22:13:23.7666667Z</advisory_date>
+        <advisory_id>54212-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-11053 affecting package tensorflow for versions less than 2.16.1-7. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package tensorflow is earlier than 2.16.1-7, affected by CVE-2024-11053" test_ref="oval:com.microsoft.azurelinux:tst:54212000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:54209" version="1">
@@ -5648,6 +5665,23 @@
         <criterion comment="Package nvidia-container-toolkit is earlier than 1.17.1-1, affected by CVE-2024-0134" test_ref="oval:com.microsoft.azurelinux:tst:52452000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52449" version="1">
+      <metadata>
+        <title>CVE-2024-9681 affecting package tensorflow for versions less than 2.16.1-7</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-9681" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-9681" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-05T22:13:23.7666667Z</advisory_date>
+        <advisory_id>52449-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-9681 affecting package tensorflow for versions less than 2.16.1-7. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package tensorflow is earlier than 2.16.1-7, affected by CVE-2024-9681" test_ref="oval:com.microsoft.azurelinux:tst:52449000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52437" version="1">
       <metadata>
         <title>CVE-2024-50134 affecting package kernel for versions less than 6.6.64.2-1</title>
@@ -6003,23 +6037,6 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 6.6.64.2-1, affected by CVE-2024-50066" test_ref="oval:com.microsoft.azurelinux:tst:52169000"/>
-      </criteria>
-    </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52096" version="0">
-      <metadata>
-        <title>CVE-2024-49967 affecting package kernel for versions less than 6.6.57.1-2</title>
-        <affected family="unix">
-          <platform>Azure Linux</platform>
-        </affected>
-        <reference ref_id="CVE-2024-49967" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-49967" source="CVE"/>
-        <patchable>true</patchable>
-        <advisory_date>2024-11-08T21:38:16Z</advisory_date>
-        <advisory_id>52096</advisory_id>
-        <severity>High</severity>
-        <description>CVE-2024-49967 affecting package kernel for versions less than 6.6.57.1-2. An upgraded version of the package is available that resolves this issue.</description>
-      </metadata>
-      <criteria operator="AND">
-        <criterion comment="Package kernel is earlier than 6.6.57.1-2, affected by CVE-2024-49967" test_ref="oval:com.microsoft.azurelinux:tst:52096000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:52089" version="1">
@@ -13366,21 +13383,21 @@
         <criterion comment="Package mysql is earlier than 8.0.40-1, affected by CVE-2024-21165" test_ref="oval:com.microsoft.azurelinux:tst:48315000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48221" version="1">
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48221" version="3">
       <metadata>
-        <title>CVE-2024-43802 affecting package vim for versions less than 9.0.2190-6</title>
+        <title>CVE-2024-43802 affecting package vim for versions less than 9.1.0697-1</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2024-43802" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-43802" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-10-24T00:18:23Z</advisory_date>
-        <advisory_id>48221-1</advisory_id>
+        <advisory_date>2025-02-05T22:13:23.7666667Z</advisory_date>
+        <advisory_id>48221-3</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2024-43802 affecting package vim for versions less than 9.0.2190-6. A patched version of the package is available.</description>
+        <description>CVE-2024-43802 affecting package vim for versions less than 9.1.0697-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package vim is earlier than 9.0.2190-6, affected by CVE-2024-43802" test_ref="oval:com.microsoft.azurelinux:tst:48221000"/>
+        <criterion comment="Package vim is earlier than 9.1.0697-1, affected by CVE-2024-43802" test_ref="oval:com.microsoft.azurelinux:tst:48221000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48216" version="1">
@@ -21682,21 +21699,21 @@
         <criterion comment="Package hyperv-daemons is earlier than 6.6.35.1-1, affected by CVE-2024-35854" test_ref="oval:com.microsoft.azurelinux:tst:42100000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42099" version="2">
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42099" version="4">
       <metadata>
-        <title>CVE-2024-28182 affecting package fluent-bit for versions less than 3.0.6-1</title>
+        <title>CVE-2024-28182 affecting package fluent-bit for versions less than 3.1.9-2</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2024-28182" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-28182" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2024-07-22T23:01:50Z</advisory_date>
-        <advisory_id>42099-2</advisory_id>
+        <advisory_date>2025-02-05T22:13:23.7666667Z</advisory_date>
+        <advisory_id>42099-4</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2024-28182 affecting package fluent-bit for versions less than 3.0.6-1. A patched version of the package is available.</description>
+        <description>CVE-2024-28182 affecting package fluent-bit for versions less than 3.1.9-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package fluent-bit is earlier than 3.0.6-1, affected by CVE-2024-28182" test_ref="oval:com.microsoft.azurelinux:tst:42099000"/>
+        <criterion comment="Package fluent-bit is earlier than 3.1.9-2, affected by CVE-2024-28182" test_ref="oval:com.microsoft.azurelinux:tst:42099000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42093" version="1">
@@ -22260,6 +22277,23 @@
         <criterion comment="Package pytorch is earlier than 2.2.2-4, affected by CVE-2021-22918" test_ref="oval:com.microsoft.azurelinux:tst:41581000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41574" version="1">
+      <metadata>
+        <title>CVE-2021-43519 affecting package lua for versions less than 5.4.4-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2021-43519" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-43519" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-05T22:13:23.7666667Z</advisory_date>
+        <advisory_id>41574-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2021-43519 affecting package lua for versions less than 5.4.4-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package lua is earlier than 5.4.4-1, affected by CVE-2021-43519" test_ref="oval:com.microsoft.azurelinux:tst:41574000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41470" version="1">
       <metadata>
         <title>CVE-2022-45873 affecting package systemd-bootstrap for versions less than 250.3-17</title>
@@ -22719,6 +22753,23 @@
         <criterion comment="Package rust is earlier than 1.75.0-1, affected by CVE-2022-32213" test_ref="oval:com.microsoft.azurelinux:tst:41051000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41033" version="1">
+      <metadata>
+        <title>CVE-2012-0883 affecting package httpd for versions less than httpd-2.4.2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2012-0883" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2012-0883" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-05T22:13:23.7666667Z</advisory_date>
+        <advisory_id>41033-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2012-0883 affecting package httpd for versions less than httpd-2.4.2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package httpd is earlier than httpd-2.4.2, affected by CVE-2012-0883" test_ref="oval:com.microsoft.azurelinux:tst:41033000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41019" version="1">
       <metadata>
         <title>CVE-2017-18214 affecting package ntopng for versions less than 5.2.1-4</title>
@@ -22734,6 +22785,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package ntopng is earlier than 5.2.1-4, affected by CVE-2017-18214" test_ref="oval:com.microsoft.azurelinux:tst:41019000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40962" version="3">
+      <metadata>
+        <title>CVE-2020-24371 affecting package ceph for versions less than 18.2.2-3</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2020-24371" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-24371" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-05T22:13:23.7666667Z</advisory_date>
+        <advisory_id>40962-3</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2020-24371 affecting package ceph for versions less than 18.2.2-3. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package ceph is earlier than 18.2.2-3, affected by CVE-2020-24371" test_ref="oval:com.microsoft.azurelinux:tst:40962000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40951" version="2">
@@ -22870,6 +22938,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2019-14584" test_ref="oval:com.microsoft.azurelinux:tst:40833000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40818" version="1">
+      <metadata>
+        <title>CVE-2020-15945 affecting package lua for versions less than 5.4.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2020-15945" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-15945" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-05T22:13:23.7666667Z</advisory_date>
+        <advisory_id>40818-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2020-15945 affecting package lua for versions less than 5.4.0-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package lua is earlier than 5.4.0-1, affected by CVE-2020-15945" test_ref="oval:com.microsoft.azurelinux:tst:40818000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40812" version="1">
@@ -23619,6 +23704,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python-jinja2 is earlier than 3.1.2-2, affected by CVE-2024-34064" test_ref="oval:com.microsoft.azurelinux:tst:40369000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40360" version="1">
+      <metadata>
+        <title>CVE-2024-32886 affecting package vitess for versions less than 19.0.4-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-32886" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-32886" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-05T22:13:23.7666667Z</advisory_date>
+        <advisory_id>40360-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-32886 affecting package vitess for versions less than 19.0.4-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package vitess is earlier than 19.0.4-1, affected by CVE-2024-32886" test_ref="oval:com.microsoft.azurelinux:tst:40360000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40349" version="1">
@@ -26220,23 +26322,6 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package tensorflow is earlier than 2.16.1-1, affected by CVE-2023-23915" test_ref="oval:com.microsoft.azurelinux:tst:38093000"/>
-      </criteria>
-    </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:38082" version="1">
-      <metadata>
-        <title>CVE-2020-22217 affecting package ceph for versions less than 18.2.2-1</title>
-        <affected family="unix">
-          <platform>Azure Linux</platform>
-        </affected>
-        <reference ref_id="CVE-2020-22217" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-22217" source="CVE"/>
-        <patchable>true</patchable>
-        <advisory_date>2025-02-02T22:12:46.25Z</advisory_date>
-        <advisory_id>38082-1</advisory_id>
-        <severity>Medium</severity>
-        <description>CVE-2020-22217 affecting package ceph for versions less than 18.2.2-1. A patched version of the package is available.</description>
-      </metadata>
-      <criteria operator="AND">
-        <criterion comment="Package ceph is earlier than 18.2.2-1, affected by CVE-2020-22217" test_ref="oval:com.microsoft.azurelinux:tst:38082000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:38070" version="1">
@@ -30013,6 +30098,23 @@
         <criterion comment="Package systemd-bootstrap is earlier than 250.3-15, affected by CVE-2022-4415" test_ref="oval:com.microsoft.azurelinux:tst:35293000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35289" version="1">
+      <metadata>
+        <title>CVE-2022-38725 affecting package syslog-ng for versions less than 4.3.1-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2022-38725" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-38725" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-05T22:13:23.7666667Z</advisory_date>
+        <advisory_id>35289-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2022-38725 affecting package syslog-ng for versions less than 4.3.1-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package syslog-ng is earlier than 4.3.1-2, affected by CVE-2022-38725" test_ref="oval:com.microsoft.azurelinux:tst:35289000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35287" version="1">
       <metadata>
         <title>CVE-2023-41913 affecting package strongswan for versions less than 5.9.12-1</title>
@@ -31099,6 +31201,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python-pygments is earlier than 2.7.4-1, affected by CVE-2021-20270" test_ref="oval:com.microsoft.azurelinux:tst:35137000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35135" version="1">
+      <metadata>
+        <title>CVE-2020-8554 affecting package python-kubernetes for versions less than 21.7.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2020-8554" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-8554" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-05T22:13:23.7666667Z</advisory_date>
+        <advisory_id>35135-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2020-8554 affecting package python-kubernetes for versions less than 21.7.0-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package python-kubernetes is earlier than 21.7.0-1, affected by CVE-2020-8554" test_ref="oval:com.microsoft.azurelinux:tst:35135000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35134" version="1">
@@ -37891,6 +38010,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:54221001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:54221002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.16.1-7, affected by CVE-2024-11053" id="oval:com.microsoft.azurelinux:tst:54212000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:54212001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:54212002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.64.2-1, affected by CVE-2024-53122" id="oval:com.microsoft.azurelinux:tst:54209000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:54209001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:54209002"/>
@@ -38727,6 +38850,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52452001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:52452002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.16.1-7, affected by CVE-2024-9681" id="oval:com.microsoft.azurelinux:tst:52449000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52449001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:52449002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.64.2-1, affected by CVE-2024-50134" id="oval:com.microsoft.azurelinux:tst:52437000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52437001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:52437002"/>
@@ -38810,10 +38937,6 @@
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.64.2-1, affected by CVE-2024-50066" id="oval:com.microsoft.azurelinux:tst:52169000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52169001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:52169002"/>
-    </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.57.1-2, affected by CVE-2024-49967" id="oval:com.microsoft.azurelinux:tst:52096000" version="0">
-      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52096001"/>
-      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:52096002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.64.2-1, affected by CVE-2024-50076" id="oval:com.microsoft.azurelinux:tst:52089000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:52089001"/>
@@ -40543,7 +40666,7 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:48315001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:48315002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package vim is earlier than 9.0.2190-6, affected by CVE-2024-43802" id="oval:com.microsoft.azurelinux:tst:48221000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package vim is earlier than 9.1.0697-1, affected by CVE-2024-43802" id="oval:com.microsoft.azurelinux:tst:48221000" version="2">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:48221001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:48221002"/>
     </linux-def:rpminfo_test>
@@ -42511,7 +42634,7 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42100001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42100002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package fluent-bit is earlier than 3.0.6-1, affected by CVE-2024-28182" id="oval:com.microsoft.azurelinux:tst:42099000" version="2">
+    <linux-def:rpminfo_test check="at least one" comment="Package fluent-bit is earlier than 3.1.9-2, affected by CVE-2024-28182" id="oval:com.microsoft.azurelinux:tst:42099000" version="3">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42099001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42099002"/>
     </linux-def:rpminfo_test>
@@ -42647,6 +42770,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41581001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41581002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package lua is earlier than 5.4.4-1, affected by CVE-2021-43519" id="oval:com.microsoft.azurelinux:tst:41574000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41574001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41574002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package systemd-bootstrap is earlier than 250.3-17, affected by CVE-2022-45873" id="oval:com.microsoft.azurelinux:tst:41470000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41470001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41470002"/>
@@ -42755,9 +42882,17 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41051001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41051002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package httpd is earlier than httpd-2.4.2, affected by CVE-2012-0883" id="oval:com.microsoft.azurelinux:tst:41033000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41033001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41033002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package ntopng is earlier than 5.2.1-4, affected by CVE-2017-18214" id="oval:com.microsoft.azurelinux:tst:41019000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41019001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41019002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package ceph is earlier than 18.2.2-3, affected by CVE-2020-24371" id="oval:com.microsoft.azurelinux:tst:40962000" version="2">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40962001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40962002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package ceph is earlier than 18.2.2-1, affected by CVE-2012-6708" id="oval:com.microsoft.azurelinux:tst:40951000" version="2">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40951001"/>
@@ -42790,6 +42925,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package shim-unsigned-aarch64 is earlier than 15.8-5, affected by CVE-2019-14584" id="oval:com.microsoft.azurelinux:tst:40833000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40833001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40833002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package lua is earlier than 5.4.0-1, affected by CVE-2020-15945" id="oval:com.microsoft.azurelinux:tst:40818000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40818001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40818002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package ntopng is earlier than 5.2.1-3, affected by CVE-2022-28805" id="oval:com.microsoft.azurelinux:tst:40812000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40812001"/>
@@ -42970,6 +43109,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package python-jinja2 is earlier than 3.1.2-2, affected by CVE-2024-34064" id="oval:com.microsoft.azurelinux:tst:40369000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40369001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40369002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package vitess is earlier than 19.0.4-1, affected by CVE-2024-32886" id="oval:com.microsoft.azurelinux:tst:40360000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40360001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40360002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package nodejs is earlier than 20.14.0-1, affected by CVE-2024-27982" id="oval:com.microsoft.azurelinux:tst:40349000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40349001"/>
@@ -43582,10 +43725,6 @@
     <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.16.1-1, affected by CVE-2023-23915" id="oval:com.microsoft.azurelinux:tst:38093000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:38093001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:38093002"/>
-    </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package ceph is earlier than 18.2.2-1, affected by CVE-2020-22217" id="oval:com.microsoft.azurelinux:tst:38082000" version="1">
-      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:38082001"/>
-      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:38082002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.16.1-1, affected by CVE-2023-28322" id="oval:com.microsoft.azurelinux:tst:38070000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:38070001"/>
@@ -44475,6 +44614,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35293001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35293002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package syslog-ng is earlier than 4.3.1-2, affected by CVE-2022-38725" id="oval:com.microsoft.azurelinux:tst:35289000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35289001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35289002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package strongswan is earlier than 5.9.12-1, affected by CVE-2023-41913" id="oval:com.microsoft.azurelinux:tst:35287000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35287001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35287002"/>
@@ -44730,6 +44873,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package python-pygments is earlier than 2.7.4-1, affected by CVE-2021-20270" id="oval:com.microsoft.azurelinux:tst:35137000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35137001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35137002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package python-kubernetes is earlier than 21.7.0-1, affected by CVE-2020-8554" id="oval:com.microsoft.azurelinux:tst:35135000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35135001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35135002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package python-jinja2 is earlier than 3.1.2-2, affected by CVE-2024-22195" id="oval:com.microsoft.azurelinux:tst:35134000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35134001"/>
@@ -46629,6 +46776,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:54221001" version="1">
       <linux-def:name>cmake</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:54212001" version="0">
+      <linux-def:name>tensorflow</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:54209001" version="1">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
@@ -47256,6 +47406,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52452001" version="1">
       <linux-def:name>nvidia-container-toolkit</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52449001" version="0">
+      <linux-def:name>tensorflow</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52437001" version="1">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
@@ -47317,9 +47470,6 @@
       <linux-def:name>cert-manager</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52169001" version="1">
-      <linux-def:name>kernel</linux-def:name>
-    </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52096001" version="0">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:52089001" version="1">
@@ -48618,7 +48768,7 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48315001" version="4">
       <linux-def:name>mysql</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48221001" version="1">
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48221001" version="2">
       <linux-def:name>vim</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48216001" version="1">
@@ -50094,7 +50244,7 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42100001" version="1">
       <linux-def:name>hyperv-daemons</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42099001" version="2">
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42099001" version="3">
       <linux-def:name>fluent-bit</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42093001" version="0">
@@ -50196,6 +50346,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41581001" version="1">
       <linux-def:name>pytorch</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41574001" version="0">
+      <linux-def:name>lua</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41470001" version="1">
       <linux-def:name>systemd-bootstrap</linux-def:name>
     </linux-def:rpminfo_object>
@@ -50277,8 +50430,14 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41051001" version="0">
       <linux-def:name>rust</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41033001" version="0">
+      <linux-def:name>httpd</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41019001" version="1">
       <linux-def:name>ntopng</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40962001" version="2">
+      <linux-def:name>ceph</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40951001" version="2">
       <linux-def:name>ceph</linux-def:name>
@@ -50303,6 +50462,9 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40833001" version="1">
       <linux-def:name>shim-unsigned-aarch64</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40818001" version="0">
+      <linux-def:name>lua</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40812001" version="1">
       <linux-def:name>ntopng</linux-def:name>
@@ -50438,6 +50600,9 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40369001" version="1">
       <linux-def:name>python-jinja2</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40360001" version="0">
+      <linux-def:name>vitess</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40349001" version="1">
       <linux-def:name>nodejs</linux-def:name>
@@ -50897,9 +51062,6 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:38093001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
-    </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:38082001" version="1">
-      <linux-def:name>ceph</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:38070001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
@@ -51567,6 +51729,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35293001" version="1">
       <linux-def:name>systemd-bootstrap</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35289001" version="0">
+      <linux-def:name>syslog-ng</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35287001" version="1">
       <linux-def:name>strongswan</linux-def:name>
     </linux-def:rpminfo_object>
@@ -51758,6 +51923,9 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35137001" version="1">
       <linux-def:name>python-pygments</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35135001" version="0">
+      <linux-def:name>python-kubernetes</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35134001" version="1">
       <linux-def:name>python-jinja2</linux-def:name>
@@ -53285,6 +53453,9 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:54221002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.30.3-3.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:54212002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.16.1-7.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:54209002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.64.2-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -53912,6 +54083,9 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52452002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.17.1-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52449002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.16.1-7.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52437002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.64.2-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -53974,9 +54148,6 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52169002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.64.2-1.azl3</linux-def:evr>
-    </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52096002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than">0:6.6.57.1-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:52089002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.64.2-1.azl3</linux-def:evr>
@@ -55274,8 +55445,8 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48315002" version="4">
       <linux-def:evr datatype="evr_string" operation="less than">0:8.0.40-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48221002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:9.0.2190-6.azl3</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48221002" version="2">
+      <linux-def:evr datatype="evr_string" operation="less than">0:9.1.0697-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48216002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.7.5-1.azl3</linux-def:evr>
@@ -56750,8 +56921,8 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42100002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.35.1-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42099002" version="2">
-      <linux-def:evr datatype="evr_string" operation="less than">0:3.0.6-1.azl3</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42099002" version="3">
+      <linux-def:evr datatype="evr_string" operation="less than">0:3.1.9-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42093002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:0.9.0-1.azl3</linux-def:evr>
@@ -56852,6 +57023,9 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41581002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.2.2-4.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41574002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.4.4-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41470002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:250.3-17.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -56933,8 +57107,14 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41051002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.75.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41033002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:httpd-2.4.2.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41019002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.2.1-4.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40962002" version="2">
+      <linux-def:evr datatype="evr_string" operation="less than">0:18.2.2-3.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40951002" version="2">
       <linux-def:evr datatype="evr_string" operation="less than">0:18.2.2-1.azl3</linux-def:evr>
@@ -56959,6 +57139,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40833002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:15.8-5.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40818002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.4.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40812002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.2.1-3.azl3</linux-def:evr>
@@ -57094,6 +57277,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40369002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.1.2-2.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40360002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:19.0.4-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40349002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:20.14.0-1.azl3</linux-def:evr>
@@ -57553,9 +57739,6 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:38093002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.16.1-1.azl3</linux-def:evr>
-    </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:38082002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:18.2.2-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:38070002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.16.1-1.azl3</linux-def:evr>
@@ -58223,6 +58406,9 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35293002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:250.3-15.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35289002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:4.3.1-2.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35287002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.9.12-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -58414,6 +58600,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35137002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.7.4-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35135002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:21.7.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35134002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.1.2-2.azl3</linux-def:evr>
