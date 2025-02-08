@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>18</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2025-02-07T13:03:38.171967038Z</oval:timestamp>
-    <oval:content_version>1738933418</oval:content_version>
+    <oval:timestamp>2025-02-08T13:04:25.688387933Z</oval:timestamp>
+    <oval:content_version>1739019865</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:55922" version="1">
@@ -22515,6 +22515,23 @@
         <criterion comment="Package influxdb is earlier than 2.7.3-3, affected by CVE-2021-4238" test_ref="oval:com.microsoft.azurelinux:tst:41275000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41261" version="3">
+      <metadata>
+        <title>CVE-2021-43519 affecting package ceph for versions less than 18.2.2-3</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2021-43519" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-43519" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-07T16:08:17.7833333Z</advisory_date>
+        <advisory_id>41261-3</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2021-43519 affecting package ceph for versions less than 18.2.2-3. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package ceph is earlier than 18.2.2-3, affected by CVE-2021-43519" test_ref="oval:com.microsoft.azurelinux:tst:41261000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41228" version="2">
       <metadata>
         <title>CVE-2015-9251 affecting package ceph for versions less than 18.2.2-1</title>
@@ -42826,6 +42843,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41275001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41275002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package ceph is earlier than 18.2.2-3, affected by CVE-2021-43519" id="oval:com.microsoft.azurelinux:tst:41261000" version="2">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41261001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41261002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package ceph is earlier than 18.2.2-1, affected by CVE-2015-9251" id="oval:com.microsoft.azurelinux:tst:41228000" version="2">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41228001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41228002"/>
@@ -50388,6 +50409,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41275001" version="1">
       <linux-def:name>influxdb</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41261001" version="2">
+      <linux-def:name>ceph</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41228001" version="2">
       <linux-def:name>ceph</linux-def:name>
     </linux-def:rpminfo_object>
@@ -57064,6 +57088,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41275002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.7.3-3.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41261002" version="2">
+      <linux-def:evr datatype="evr_string" operation="less than">0:18.2.2-3.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41228002" version="2">
       <linux-def:evr datatype="evr_string" operation="less than">0:18.2.2-1.azl3</linux-def:evr>
