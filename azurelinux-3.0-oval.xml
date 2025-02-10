@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>18</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2025-02-09T13:03:52.141706699Z</oval:timestamp>
-    <oval:content_version>1739106232</oval:content_version>
+    <oval:timestamp>2025-02-10T13:03:41.080058111Z</oval:timestamp>
+    <oval:content_version>1739192621</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:55922" version="1">
@@ -16030,7 +16030,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-07-22T15:42:40Z</advisory_date>
         <advisory_id>47020-1</advisory_id>
-        <severity>Low</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-6874 affecting package curl for versions less than 8.8.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
