@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>18</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2025-02-11T13:04:01.794420572Z</oval:timestamp>
-    <oval:content_version>1739279041</oval:content_version>
+    <oval:timestamp>2025-02-12T13:04:29.231056788Z</oval:timestamp>
+    <oval:content_version>1739365469</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:56078" version="1">
@@ -6064,7 +6064,7 @@
         </affected>
         <reference ref_id="CVE-2024-51744" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-51744" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>52216-1</advisory_id>
         <severity>Low</severity>
         <description>CVE-2024-51744 affecting package etcd for versions less than 3.5.18-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -6081,7 +6081,7 @@
         </affected>
         <reference ref_id="CVE-2024-51744" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-51744" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>52195-1</advisory_id>
         <severity>Low</severity>
         <description>CVE-2024-51744 affecting package application-gateway-kubernetes-ingress for versions less than 1.7.7-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -13238,7 +13238,7 @@
         </affected>
         <reference ref_id="CVE-2024-45310" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-45310" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>48565-1</advisory_id>
         <severity>Low</severity>
         <description>CVE-2024-45310 affecting package cri-tools for versions less than 1.32.0-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -13476,7 +13476,7 @@
         </affected>
         <reference ref_id="CVE-2024-43806" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-43806" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>48333-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-43806 affecting package kata-containers for versions less than 3.2.0.azl4-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -13493,7 +13493,7 @@
         </affected>
         <reference ref_id="CVE-2024-43806" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-43806" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>48330-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-43806 affecting package kata-containers-cc for versions less than 3.2.0.azl4-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -16130,7 +16130,7 @@
         </affected>
         <reference ref_id="CVE-2024-40897" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-40897" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>47122-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2024-40897 affecting package orc for versions less than 0.4.39-2. An upgraded version of the package is available that resolves this issue.</description>
@@ -16183,7 +16183,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-07-22T15:42:40Z</advisory_date>
         <advisory_id>47020-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>Low</severity>
         <description>CVE-2024-6874 affecting package curl for versions less than 8.8.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -19292,7 +19292,7 @@
         </affected>
         <reference ref_id="CVE-2022-23901" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-23901" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>45369-1</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2022-23901 affecting package re2c for versions less than 3.1-4. An upgraded version of the package is available that resolves this issue.</description>
@@ -19360,7 +19360,7 @@
         </affected>
         <reference ref_id="CVE-2021-32142" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-32142" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>45267-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2021-32142 affecting package LibRaw for versions less than 0.21.3-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -19649,7 +19649,7 @@
         </affected>
         <reference ref_id="CVE-2015-1029" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2015-1029" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>44415-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2015-1029 affecting package puppet for versions less than 7.34.0-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -19717,7 +19717,7 @@
         </affected>
         <reference ref_id="CVE-2023-3297" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-3297" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>44259-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-3297 affecting package accountsservice for versions less than 23.13.9-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -19751,7 +19751,7 @@
         </affected>
         <reference ref_id="CVE-2023-45853" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-45853" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>44127-1</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2023-45853 affecting package blosc for versions less than 1.21.6-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -19802,7 +19802,7 @@
         </affected>
         <reference ref_id="CVE-2012-6655" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2012-6655" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>44049-1</advisory_id>
         <severity>Low</severity>
         <description>CVE-2012-6655 affecting package accountsservice for versions less than 23.13.9-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -21146,7 +21146,7 @@
         </affected>
         <reference ref_id="CVE-2024-35255" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-35255" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>42655-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2024-35255 affecting package application-gateway-kubernetes-ingress for versions less than 1.7.7-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -24989,7 +24989,7 @@
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>39652-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-39325 affecting package kata-containers for versions less than 3.2.0.azl4-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -25040,7 +25040,7 @@
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>39637-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-39325 affecting package kata-containers-cc for versions less than 3.2.0.azl4-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -25057,7 +25057,7 @@
         </affected>
         <reference ref_id="CVE-2023-45288" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-45288" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>39634-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-45288 affecting package kata-containers-cc for versions less than 3.2.0.azl4-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -25074,7 +25074,7 @@
         </affected>
         <reference ref_id="CVE-2023-45288" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-45288" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>39625-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-45288 affecting package kata-containers for versions less than 3.2.0.azl4-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -26349,7 +26349,7 @@
         </affected>
         <reference ref_id="CVE-2023-45288" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-45288" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>38281-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-45288 affecting package etcd for versions less than 3.5.18-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -26621,7 +26621,7 @@
         </affected>
         <reference ref_id="CVE-2023-45288" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-45288" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>38158-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-45288 affecting package application-gateway-kubernetes-ingress for versions less than 1.7.7-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -27352,7 +27352,7 @@
         </affected>
         <reference ref_id="CVE-2022-4055" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4055" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>37063-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-4055 affecting package xdg-utils for versions less than 1.2.1-3. An upgraded version of the package is available that resolves this issue.</description>
@@ -28865,7 +28865,7 @@
         </affected>
         <reference ref_id="CVE-2024-24786" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-24786" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>35659-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2024-24786 affecting package kata-containers-cc for versions less than 3.2.0.azl4-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -28882,7 +28882,7 @@
         </affected>
         <reference ref_id="CVE-2024-24786" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-24786" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>35658-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2024-24786 affecting package kata-containers for versions less than 3.2.0.azl4-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -37863,7 +37863,7 @@
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>34544-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-39325 affecting package application-gateway-kubernetes-ingress for versions less than 1.7.7-1. An upgraded version of the package is available that resolves this issue.</description>
@@ -37897,7 +37897,7 @@
         </affected>
         <reference ref_id="CVE-2023-3978" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-3978" source="CVE"/>
         <patchable>true</patchable>
-        <advisory_date>2025-02-10T16:08:04.563Z</advisory_date>
+        <advisory_date>2025-02-11T16:07:30.177Z</advisory_date>
         <advisory_id>34542-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2023-3978 affecting package application-gateway-kubernetes-ingress for versions less than 1.7.7-1. An upgraded version of the package is available that resolves this issue.</description>
