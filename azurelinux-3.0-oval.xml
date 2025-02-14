@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>18</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2025-02-13T13:03:58.43992686Z</oval:timestamp>
-    <oval:content_version>1739451838</oval:content_version>
+    <oval:timestamp>2025-02-14T13:04:05.359546086Z</oval:timestamp>
+    <oval:content_version>1739538245</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:56078" version="1">
@@ -16183,7 +16183,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-07-22T15:42:40Z</advisory_date>
         <advisory_id>47020-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>Low</severity>
         <description>CVE-2024-6874 affecting package curl for versions less than 8.8.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -32665,6 +32665,23 @@
         <criterion comment="Package nodejs is earlier than 20.14.0-1, affected by CVE-2024-24806" test_ref="oval:com.microsoft.azurelinux:tst:35051000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35050" version="0">
+      <metadata>
+        <title>CVE-2024-22195 affecting package nodejs for versions less than 20.14.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-22195" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-22195" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-13T16:08:46.08Z</advisory_date>
+        <advisory_id>35050</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-22195 affecting package nodejs for versions less than 20.14.0-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package nodejs is earlier than 20.14.0-1, affected by CVE-2024-22195" test_ref="oval:com.microsoft.azurelinux:tst:35050000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35049" version="2">
       <metadata>
         <title>CVE-2024-0727 affecting package nodejs for versions less than 16.20.2-2</title>
@@ -45728,6 +45745,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35051001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35051002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package nodejs is earlier than 20.14.0-1, affected by CVE-2024-22195" id="oval:com.microsoft.azurelinux:tst:35050000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35050001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35050002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package nodejs is earlier than 16.20.2-2, affected by CVE-2024-0727" id="oval:com.microsoft.azurelinux:tst:35049000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35049001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35049002"/>
@@ -52812,6 +52833,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35051001" version="1">
       <linux-def:name>nodejs</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35050001" version="0">
+      <linux-def:name>nodejs</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35049001" version="1">
       <linux-def:name>nodejs</linux-def:name>
     </linux-def:rpminfo_object>
@@ -59577,6 +59601,9 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:20.14.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35051002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:20.14.0-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35050002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:20.14.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35049002" version="1">
