@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>18</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2025-02-14T13:04:05.359546086Z</oval:timestamp>
-    <oval:content_version>1739538245</oval:content_version>
+    <oval:timestamp>2025-02-15T13:03:46.82528471Z</oval:timestamp>
+    <oval:content_version>1739624626</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:56078" version="1">
@@ -29173,7 +29173,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>35480-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-26462 affecting package krb5 for versions less than 1.21.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
