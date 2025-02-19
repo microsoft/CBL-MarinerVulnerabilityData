@@ -3,10 +3,44 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>18</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2025-02-18T13:04:01.403657641Z</oval:timestamp>
-    <oval:content_version>1739883841</oval:content_version>
+    <oval:timestamp>2025-02-19T13:03:59.612821622Z</oval:timestamp>
+    <oval:content_version>1739970239</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:56898" version="1">
+      <metadata>
+        <title>CVE-2025-26466 affecting package openssh for versions less than 9.8p1-3</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2025-26466" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2025-26466" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-18T00:00:00Z</advisory_date>
+        <advisory_id>56898-1</advisory_id>
+        <severity>MEDIUM</severity>
+        <description>CVE-2025-26466 affecting package openssh for versions less than 9.8p1-3. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package openssh is earlier than 9.8p1-3, affected by CVE-2025-26466" test_ref="oval:com.microsoft.azurelinux:tst:56898000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:56894" version="1">
+      <metadata>
+        <title>CVE-2025-26465 affecting package openssh for versions less than 9.8p1-3</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2025-26465" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2025-26465" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2025-02-18T00:00:00Z</advisory_date>
+        <advisory_id>56894-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2025-26465 affecting package openssh for versions less than 9.8p1-3. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package openssh is earlier than 9.8p1-3, affected by CVE-2025-26465" test_ref="oval:com.microsoft.azurelinux:tst:56894000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:56078" version="1">
       <metadata>
         <title>CVE-2024-45339 affecting package sriov-network-device-plugin for versions less than 3.7.0-3</title>
@@ -16183,7 +16217,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-07-22T15:42:40Z</advisory_date>
         <advisory_id>47020-1</advisory_id>
-        <severity>Low</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-6874 affecting package curl for versions less than 8.8.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -37993,6 +38027,14 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package openssh is earlier than 9.8p1-3, affected by CVE-2025-26466" id="oval:com.microsoft.azurelinux:tst:56898000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:56898001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:56898002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package openssh is earlier than 9.8p1-3, affected by CVE-2025-26465" id="oval:com.microsoft.azurelinux:tst:56894000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:56894001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:56894002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package sriov-network-device-plugin is earlier than 3.7.0-3, affected by CVE-2024-45339" id="oval:com.microsoft.azurelinux:tst:56078000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:56078001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:56078002"/>
@@ -47019,6 +47061,12 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:56898001" version="1">
+      <linux-def:name>openssh</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:56894001" version="1">
+      <linux-def:name>openssh</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:56078001" version="1">
       <linux-def:name>sriov-network-device-plugin</linux-def:name>
     </linux-def:rpminfo_object>
@@ -53789,6 +53837,12 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:56898002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:9.8p1-3.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:56894002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:9.8p1-3.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:56078002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.7.0-3.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
